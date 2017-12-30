@@ -1,6 +1,6 @@
 # Site settings
-title: Editorial
-subtitle: by HTML5 UP
+title: William Meng
+subtitle:
 email: youremailaddress@gmail.com
 description: A FREE AND FULLY RESPONSIVE SITE TEMPLATE
 baseurl: "/"
@@ -16,14 +16,14 @@ phone: (716) 555-5555
 # Social settings
 500px_url:
 facebook_url:
-github_url:
-gitlab_url: https://gitlab.com/u/andrewbanchich
-googleplus_url: https://plus.google.com/u/0/+AndrewBanchich
-instagram_url: https://instagram.com
-linkedin_url: https://www.linkedin.com/in/andrew-banchich-a4ba1195
+github_url: https://github.com/wlmeng11
+gitlab_url:
+googleplus_url:
+instagram_url: https://www.instagram.com/wlmeng11/
+linkedin_url: https://www.linkedin.com/in/william-m-79687b102/
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/andrewbanchich
+twitter_url:
 
 # Build settings
 markdown: kramdown
