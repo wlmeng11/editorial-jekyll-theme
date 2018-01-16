@@ -48,8 +48,8 @@ layout: default
 		<article>
 			<!-- <a href="#" class="image"><img src="assets/images/pic01.jpg" alt="" /></a> -->
 			<a href="{{ 'music_visualizer.html' | absolute_url }}" class="image"><img src="assets/images/music_visualizer.gif" alt="" /></a>
-			<h3>Interdum aenean</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+			<h3>Music Visualizer</h3>
+			<p>2016</p>
 			<ul class="actions">
 				<li><a href="#" class="button">More</a></li>
 			</ul>
