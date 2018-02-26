@@ -42,57 +42,48 @@ layout: default
 <!-- Section -->
 <section>
 	<header class="major">
-		<h2>Showcase</h2>
+		<h2>Portfolio</h2>
 	</header>
 	<div class="posts">
 		<article>
-			<!-- <a href="#" class="image"><img src="assets/images/pic01.jpg" alt="" /></a> -->
+			<a href="{{ 'ultrasonos.html' | absolute_url }}" class="image"><img src="assets/images/Ultrasound_Analog_Frontend_crop.jpg" alt="" /></a>
+			<h3>UltrasonOS</h3>
+			<p>2017</p>
+		</article>
+		<article>
+			<a href="{{ 'coaster.html' | absolute_url }}" class="image"><img src="assets/images/Coaster.jpg" alt="" /></a>
+			<h3>Copper Coaster</h3>
+			<p>2017</p>
+		</article>
+		<article>
+			<a href="{{ 'inchworm.html' | absolute_url }}" class="image"><img src="assets/images/Inchworm.jpg" alt="" /></a>
+			<h3>Inchworm</h3>
+			<p>2017</p>
+		</article>
+		<article>
+			<a href="{{ 'shift_register_visualizer.html' | absolute_url }}" class="image"><img src="assets/images/Shift_register_visualizer.jpg" alt="" /></a>
+			<h3>Shift Register Visualizer</h3>
+			<p>2017</p>
+		</article>
+		<article>
+			<a href="{{ 'the_flash_box.html' | absolute_url }}" class="image"><img src="assets/images/The_Flash_Box.jpg" alt="" /></a>
+			<h3>The Flash Box</h3>
+			<p>2016</p>
+		</article>
+		<article>
 			<a href="{{ 'music_visualizer.html' | absolute_url }}" class="image"><img src="assets/images/music_visualizer.gif" alt="" /></a>
 			<h3>Music Visualizer</h3>
 			<p>2016</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
 		</article>
 		<article>
-			<a href="#" class="image"><img src="assets/images/pic02.jpg" alt="" /></a>
-			<h3>Nulla amet dolore</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
+			<a href="{{ 'futurama.html' | absolute_url }}" class="image"><img src="assets/images/Futurama.jpg" alt="" /></a>
+			<h3>Futurama</h3>
+			<p>2016</p>
 		</article>
 		<article>
-			<a href="#" class="image"><img src="assets/images/pic03.jpg" alt="" /></a>
-			<h3>Tempus ullamcorper</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
-		<article>
-			<a href="#" class="image"><img src="assets/images/pic04.jpg" alt="" /></a>
-			<h3>Sed etiam facilis</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
-		<article>
-			<a href="#" class="image"><img src="assets/images/pic05.jpg" alt="" /></a>
-			<h3>Feugiat lorem aenean</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
-		</article>
-		<article>
-			<a href="#" class="image"><img src="assets/images/pic06.jpg" alt="" /></a>
-			<h3>Amet varius aliquam</h3>
-			<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			<ul class="actions">
-				<li><a href="#" class="button">More</a></li>
-			</ul>
+			<a href="{{ 'sketchbook.html' | absolute_url }}" class="image"><img src="assets/images/Sketchbook.jpg" alt="" /></a>
+			<h3>Sketchbook</h3>
+			<p>2016</p>
 		</article>
 	</div>
 </section>

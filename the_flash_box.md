@@ -1,7 +1,7 @@
 ---
 layout: page
 title: The Flash Box
-# image: assets/images/music_visualizer.gif
+image: assets/images/The_Flash_Box.jpg
 ---
 Dec 2016
 
