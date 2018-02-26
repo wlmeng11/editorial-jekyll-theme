@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sketchbook
-# image: assets/images/music_visualizer.gif
+image: assets/images/Sketchbook.jpg
 ---
 Dec 2016
 
