@@ -71,7 +71,7 @@ layout: default
 			<p>2016</p>
 		</article>
 		<article>
-			<a href="{{ 'music_visualizer.html' | absolute_url }}" class="image"><img src="assets/images/music_visualizer.gif" alt="" /></a>
+			<a href="{{ 'music_visualizer.html' | absolute_url }}" class="image"><img src="assets/images/Music_visualizer.gif" alt="" /></a>
 			<h3>Music Visualizer</h3>
 			<p>2016</p>
 		</article>
