@@ -15,3 +15,192 @@ We are developing a low cost, open source device called UltrasonOS with the aim 
 * [Code for STM32](https://github.com/ColumbiaOpenSourceUltrasound/UltrasonOS_STM32) - Performs high speed data acquisition and UDP data streaming to a client computer. I somehow managed to preserve my sanity as I journeyed through the thousand-page depths of STM32 documentation.
 
 We designed the PCBs in [Kicad](http://kicad-pcb.org/) and utilized a combination of the [mbed](https://os.mbed.com/) and HAL libraries for the STM32 code. We ordered PCBs and stencils from [OSH Park](https://oshpark.com/) and [OSH Stencils](https://www.oshstencils.com/), respectively.
+
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+</style>
+
+<div class="container">
+  <div class="mySlides">
+    <div class="numbertext">1 / 6</div>
+    <img src="assets/images/Ultrasound_Nucleo_DAQ_Shield.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">2 / 6</div>
+    <img src="assets/images/Ultrasound_piezo.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">3 / 6</div>
+    <img src="assets/images/Ultrasound_3_layer_sandwich.png" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">4 / 6</div>
+    <img src="assets/images/Ultrasound_envelope.png" style="width:100%">
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">5 / 6</div>
+    <img src="assets/images/Ultrasound_A_mode.jpg" style="width:100%">
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+    <img src="assets/images/Ultrasound_data_streaming.jpg" style="width:100%">
+  </div>
+    
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="assets/images/Ultrasound_Nucleo_DAQ_Shield.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nucleo DAQ Shield, connected to STM32 Nucleo board">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/images/Ultrasound_piezo.jpg" style="width:100%" onclick="currentSlide(2)" alt="Piezoelectric transducer coated in gel, which fills in air gaps between the transducer and the target medium. This is necessary because air has a drastically mismatching acoustic impedance compared to water and flesh.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/images/Ultrasound_3_layer_sandwich.png" style="width:100%" onclick="currentSlide(3)" alt="Visual of how propagation delay corresponds to the distance between the transducer and each density boundary of the target medium">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/images/Ultrasound_envelope.png" style="width:100%" onclick="currentSlide(4)" alt="Ultrasound signal (pink) and the envelope signal extracted from it (blue)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/images/Ultrasound_A_mode.jpg" style="width:100%" onclick="currentSlide(5)" alt="Handheld “probe” for A-mode imaging (ie. 1 dimensional boundary data)">
+    </div>    
+    <div class="column">
+      <img class="demo cursor" src="assets/images/Ultrasound_data_streaming.jpg" style="width:100%" onclick="currentSlide(6)" alt="Data streaming from Nucleo board to my laptop">
+    </div>
+  </div>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
