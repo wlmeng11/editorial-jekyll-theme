@@ -19,33 +19,27 @@ We designed the PCBs in [Kicad](http://kicad-pcb.org/) and utilized a combinatio
 
 <div class="container">
   <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
-    <img src="assets/images/Ultrasound_Nucleo_DAQ_Shield.jpg" style="width:100%">
+    <img src="assets/images/Ultrasound_Nucleo_DAQ_Shield.jpg">
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-    <img src="assets/images/Ultrasound_piezo.jpg" style="width:100%">
+    <img src="assets/images/Ultrasound_piezo.jpg" >
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-    <img src="assets/images/Ultrasound_3_layer_sandwich.png" style="width:100%">
+    <img src="assets/images/Ultrasound_3_layer_sandwich.png" >
   </div>
     
   <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-    <img src="assets/images/Ultrasound_envelope.png" style="width:100%">
+    <img src="assets/images/Ultrasound_envelope.png" >
   </div>
 
   <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-    <img src="assets/images/Ultrasound_A_mode.jpg" style="width:100%">
+    <img src="assets/images/Ultrasound_A_mode.jpg" >
   </div>
     
   <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-    <img src="assets/images/Ultrasound_data_streaming.jpg" style="width:100%">
+    <img src="assets/images/Ultrasound_data_streaming.jpg" >
   </div>
     
   <a class="prev" onclick="plusSlides(-1)">❮</a>

@@ -7,6 +7,18 @@
 /* Position the image container (needed to position the left and right arrows) */
 .container {
   position: relative;
+  width: 100%;
+  background-color: #222;
+}
+
+/* Pad images within mySlides so that they fit within a reasonable size,
+and scale automatically while preserving aspect ratio */
+.mySlides img {
+  display: block;
+  margin: 0 auto;
+  object-fit: scale-down;
+  max-width: 100%;
+  height: 40vh;
 }
 
 /* Hide the images by default */
@@ -59,6 +71,7 @@
 
 /* Container for image text */
 .caption-container {
+  min-height: 4em;
   text-align: center;
   background-color: #222;
   padding: 2px 16px;
