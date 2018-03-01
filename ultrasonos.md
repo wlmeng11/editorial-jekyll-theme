@@ -16,6 +16,7 @@ We are developing a low cost, open source device called UltrasonOS with the aim 
 
 We designed the PCBs in [Kicad](http://kicad-pcb.org/) and utilized a combination of the [mbed](https://os.mbed.com/) and HAL libraries for the STM32 code. We ordered PCBs and stencils from [OSH Park](https://oshpark.com/) and [OSH Stencils](https://www.oshstencils.com/), respectively.
 
+<hr class="major" />
 
 <div class="container">
   <div class="mySlides">
@@ -51,22 +52,28 @@ We designed the PCBs in [Kicad](http://kicad-pcb.org/) and utilized a combinatio
 
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="assets/images/Ultrasound_Nucleo_DAQ_Shield.jpg" style="width:100%" onclick="currentSlide(1)" alt="Nucleo DAQ Shield, connected to STM32 Nucleo board">
+      <img class="demo cursor" src="assets/images/Ultrasound_Nucleo_DAQ_Shield.jpg" style="width:100%" onclick="currentSlide(1)"
+      alt="Nucleo DAQ Shield, connected to STM32 Nucleo board">
     </div>
     <div class="column">
-      <img class="demo cursor" src="assets/images/Ultrasound_piezo.jpg" style="width:100%" onclick="currentSlide(2)" alt="Piezoelectric transducer coated in gel, which fills in air gaps between the transducer and the target medium. This is necessary because air has a drastically mismatching acoustic impedance compared to water and flesh.">
+      <img class="demo cursor" src="assets/images/Ultrasound_piezo.jpg" style="width:100%" onclick="currentSlide(2)"
+      alt="Piezoelectric transducer coated in gel, which fills in air gaps between the transducer and the target medium. This is necessary because air has a drastically mismatching acoustic impedance compared to water and flesh.">
     </div>
     <div class="column">
-      <img class="demo cursor" src="assets/images/Ultrasound_3_layer_sandwich.png" style="width:100%" onclick="currentSlide(3)" alt="Visual of how propagation delay corresponds to the distance between the transducer and each density boundary of the target medium">
+      <img class="demo cursor" src="assets/images/Ultrasound_3_layer_sandwich.png" style="width:100%" onclick="currentSlide(3)"
+      alt="Visual of how propagation delay corresponds to the distance between the transducer and each density boundary of the target medium">
     </div>
     <div class="column">
-      <img class="demo cursor" src="assets/images/Ultrasound_envelope.png" style="width:100%" onclick="currentSlide(4)" alt="Ultrasound signal (pink) and the envelope signal extracted from it (blue)">
+      <img class="demo cursor" src="assets/images/Ultrasound_envelope.png" style="width:100%" onclick="currentSlide(4)"
+      alt="Ultrasound signal (pink) and the envelope signal extracted from it (blue)">
     </div>
     <div class="column">
-      <img class="demo cursor" src="assets/images/Ultrasound_A_mode.jpg" style="width:100%" onclick="currentSlide(5)" alt="Handheld “probe” for A-mode imaging (ie. 1 dimensional boundary data)">
+      <img class="demo cursor" src="assets/images/Ultrasound_A_mode.jpg" style="width:100%" onclick="currentSlide(5)"
+      alt="Handheld “probe” for A-mode imaging (ie. 1 dimensional boundary data)">
     </div>    
     <div class="column">
-      <img class="demo cursor" src="assets/images/Ultrasound_data_streaming.jpg" style="width:100%" onclick="currentSlide(6)" alt="Data streaming from Nucleo board to my laptop">
+      <img class="demo cursor" src="assets/images/Ultrasound_data_streaming.jpg" style="width:100%" onclick="currentSlide(6)"
+      alt="Data streaming from Nucleo board to my laptop">
     </div>
   </div>
 </div>
