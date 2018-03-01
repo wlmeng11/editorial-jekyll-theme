@@ -41,3 +41,5 @@ allows the pages to lay flat when the notebook is open.
 
 <link rel="stylesheet" href="assets/css/gallery.css">
 <script type="text/javascript" src="assets/js/gallery.js"></script>
+
+<hr class="major" />

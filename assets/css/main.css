@@ -2554,6 +2554,9 @@
 		.image img {
 			border-radius: 0.375em;
 			display: block;
+			max-height: 50vh; /* limit height of image to 50% of viewport height */
+			object-fit: scale-down; /* preserve aspect ratio */
+			margin: 0 auto;
 		}
 
 		.image.left, .image.right {

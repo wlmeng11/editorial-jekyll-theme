@@ -75,3 +75,5 @@ Our project for the Art of Engineering class. We designed and fabricated an Ardu
 
 <link rel="stylesheet" href="assets/css/gallery.css">
 <script type="text/javascript" src="assets/js/gallery.js"></script>
+
+<hr class="major" />

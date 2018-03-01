@@ -45,5 +45,7 @@ My first ever PCB design! Initially prototyped on a breadboard, then drawn in Ki
   </div>
 </div>
 
+<hr class="major" />
+
 <link rel="stylesheet" href="assets/css/gallery.css">
 <script type="text/javascript" src="assets/js/gallery.js"></script>

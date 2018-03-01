@@ -90,3 +90,5 @@ image: assets/images/pic11.jpg
 
 <link rel="stylesheet" href="assets/css/gallery.css">
 <script type="text/javascript" src="assets/js/gallery.js"></script>
+
+<hr class="major" />

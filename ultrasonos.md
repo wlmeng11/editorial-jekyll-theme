@@ -78,5 +78,7 @@ We designed the PCBs in [Kicad](http://kicad-pcb.org/) and utilized a combinatio
   </div>
 </div>
 
+<hr class="major" />
+
 <link rel="stylesheet" href="assets/css/gallery.css">
 <script type="text/javascript" src="assets/js/gallery.js"></script>
