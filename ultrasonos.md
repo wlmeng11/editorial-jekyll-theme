@@ -3,9 +3,9 @@ layout: page
 title: UltrasonOS
 image: assets/images/Ultrasound_Analog_Frontend.jpg
 ---
-Spring/Summer/Fall 2017  
-with Yazmin Feliz et al  
-(Columbia University Creative Machines Lab)
+Spring/Summer/Fall 2017<br>
+with Yazmin Feliz et al<br>
+(Columbia University Creative Machines Lab)<br>
 
 We are developing a low cost, open source device called UltrasonOS with the aim of drastically reducing the barrier of access to life-saving ultrasound imaging technology. I created the initial PCB designs and subsequently managed a subteam to iterate upon the PCB designs while I also took on a large part of the microcontroller programming.
 
@@ -16,7 +16,6 @@ We are developing a low cost, open source device called UltrasonOS with the aim 
 
 We designed the PCBs in [Kicad](http://kicad-pcb.org/) and utilized a combination of the [mbed](https://os.mbed.com/) and HAL libraries for the STM32 code. We ordered PCBs and stencils from [OSH Park](https://oshpark.com/) and [OSH Stencils](https://www.oshstencils.com/), respectively.
 
-<link rel="stylesheet" href="assets/css/gallery.css">
 
 <div class="container">
   <div class="mySlides">
@@ -78,4 +77,5 @@ We designed the PCBs in [Kicad](http://kicad-pcb.org/) and utilized a combinatio
   </div>
 </div>
 
+<link rel="stylesheet" href="assets/css/gallery.css">
 <script type="text/javascript" src="assets/js/gallery.js"></script>
