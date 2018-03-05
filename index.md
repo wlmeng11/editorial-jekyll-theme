@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Section -->
-<section>
+<!-- <section>
 	<header class="major">
 		<h2>What I do</h2>
 	</header>
@@ -37,7 +37,7 @@ layout: default
 			</div>
 		</article>
 	</div>
-</section>
+</section> -->
 
 <!-- Section -->
 <section>
