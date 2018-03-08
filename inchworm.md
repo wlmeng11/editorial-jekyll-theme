@@ -15,9 +15,15 @@ The “back” of the inchworm is a sheet of plywood cut in such a way as to for
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IfFF9oWX17U?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/pit3s5Mq2Ro?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/k6DmN1Q-_F8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <div class="container">
+  <div class="mySlides">
+    <img src="assets/images/Inchworm_cardboard.jpg">
+  </div>
+  
   <div class="mySlides">
     <img src="assets/images/Inchworm_mechanism.jpg">
   </div>
@@ -35,11 +41,15 @@ The “back” of the inchworm is a sheet of plywood cut in such a way as to for
 
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="assets/images/Inchworm_mechanism.jpg" style="width:100%" onclick="currentSlide(1)" 
+      <img class="demo cursor" src="assets/images/Inchworm_cardboard.jpg" style="width:100%" onclick="currentSlide(1)" 
+      alt="Mock up in cardboard">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/images/Inchworm_mechanism.jpg" style="width:100%" onclick="currentSlide(2)" 
       alt="Winch and wheel mechanisms">
     </div>
     <div class="column">
-      <img class="demo cursor" src="assets/images/Inchworm_arch.jpg" style="width:100%" onclick="currentSlide(2)" 
+      <img class="demo cursor" src="assets/images/Inchworm_arch.jpg" style="width:100%" onclick="currentSlide(3)" 
       alt="Living hinge, compressed into an arch shape">
     </div>
   </div>
