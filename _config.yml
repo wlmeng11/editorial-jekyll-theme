@@ -1,17 +1,11 @@
 # Site settings
 title: William Meng
 subtitle:
-email: youremailaddress@gmail.com
-description: A FREE AND FULLY RESPONSIVE SITE TEMPLATE
+description: My personal site
 baseurl: "/"
-url: "wlmeng11.github.io" # the base hostname & protocol for your site
-author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
-country: United States of America
-phone: (716) 555-5555
+url: https://williammeng.com
+enforce_ssl: williammeng.com
+author: William Meng
 
 # Social settings
 500px_url:
