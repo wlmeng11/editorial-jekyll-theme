@@ -2,6 +2,7 @@
 layout: page
 title: Copper Coaster
 image: assets/images/Coaster.jpg
+comments: true
 ---
 Mar 2017
 

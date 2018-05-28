@@ -2,6 +2,7 @@
 layout: page
 title: Sketchbook
 image: assets/images/Sketchbook.jpg
+comments: true
 ---
 Dec 2016
 

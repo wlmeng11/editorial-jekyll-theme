@@ -2,6 +2,7 @@
 layout: page
 title: Shift Register Visualizer
 image: assets/images/Shift_register_visualizer.jpg
+comments: true
 ---
 Feb 2017
 
@@ -23,7 +24,7 @@ My first ever PCB design! Initially prototyped on a breadboard, then drawn in Ki
   <div class="mySlides">
     <img src="assets/images/Shift_register_light.jpg" >
   </div>
-    
+
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <a class="next" onclick="plusSlides(1)">❯</a>
 

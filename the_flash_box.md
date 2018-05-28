@@ -2,6 +2,7 @@
 layout: page
 title: The Flash Box
 image: assets/images/The_Flash_Box.jpg
+comments: true
 ---
 Dec 2016
 

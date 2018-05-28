@@ -2,6 +2,7 @@
 layout: page
 title: UltrasonOS
 image: assets/images/Ultrasound_Analog_Frontend.jpg
+comments: true
 ---
 Spring/Summer/Fall 2017<br>
 with Yazmin Feliz et al<br>
@@ -30,7 +31,7 @@ We designed the PCBs in [Kicad](http://kicad-pcb.org/) and utilized a combinatio
   <div class="mySlides">
     <img src="assets/images/Ultrasound_3_layer_sandwich.png" >
   </div>
-    
+
   <div class="mySlides">
     <img src="assets/images/Ultrasound_envelope.png" >
   </div>
@@ -38,11 +39,11 @@ We designed the PCBs in [Kicad](http://kicad-pcb.org/) and utilized a combinatio
   <div class="mySlides">
     <img src="assets/images/Ultrasound_A_mode.jpg" >
   </div>
-    
+
   <div class="mySlides">
     <img src="assets/images/Ultrasound_data_streaming.jpg" >
   </div>
-    
+
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <a class="next" onclick="plusSlides(1)">❯</a>
 
@@ -70,7 +71,7 @@ We designed the PCBs in [Kicad](http://kicad-pcb.org/) and utilized a combinatio
     <div class="column">
       <img class="demo cursor" src="assets/images/Ultrasound_A_mode.jpg" style="width:100%" onclick="currentSlide(5)"
       alt="Handheld “probe” for A-mode imaging (ie. 1 dimensional boundary data)">
-    </div>    
+    </div>
     <div class="column">
       <img class="demo cursor" src="assets/images/Ultrasound_data_streaming.jpg" style="width:100%" onclick="currentSlide(6)"
       alt="Data streaming from Nucleo board to my laptop">

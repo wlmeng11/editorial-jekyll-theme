@@ -2,6 +2,7 @@
 layout: page
 title: Inchworm
 image: assets/images/Inchworm.jpg
+comments: true
 ---
 Feb 2017<br>
 with Doga Ozesmi, Haley So, and Erica Jo
@@ -23,7 +24,7 @@ The “back” of the inchworm is a sheet of plywood cut in such a way as to for
   <div class="mySlides">
     <img src="assets/images/Inchworm_cardboard.jpg">
   </div>
-  
+
   <div class="mySlides">
     <img src="assets/images/Inchworm_mechanism.jpg">
   </div>
@@ -41,15 +42,15 @@ The “back” of the inchworm is a sheet of plywood cut in such a way as to for
 
   <div class="row">
     <div class="column">
-      <img class="demo cursor" src="assets/images/Inchworm_cardboard.jpg" style="width:100%" onclick="currentSlide(1)" 
+      <img class="demo cursor" src="assets/images/Inchworm_cardboard.jpg" style="width:100%" onclick="currentSlide(1)"
       alt="Mock up in cardboard">
     </div>
     <div class="column">
-      <img class="demo cursor" src="assets/images/Inchworm_mechanism.jpg" style="width:100%" onclick="currentSlide(2)" 
+      <img class="demo cursor" src="assets/images/Inchworm_mechanism.jpg" style="width:100%" onclick="currentSlide(2)"
       alt="Winch and wheel mechanisms">
     </div>
     <div class="column">
-      <img class="demo cursor" src="assets/images/Inchworm_arch.jpg" style="width:100%" onclick="currentSlide(3)" 
+      <img class="demo cursor" src="assets/images/Inchworm_arch.jpg" style="width:100%" onclick="currentSlide(3)"
       alt="Living hinge, compressed into an arch shape">
     </div>
   </div>

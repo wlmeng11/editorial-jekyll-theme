@@ -2,6 +2,7 @@
 layout: page
 title: Futurama
 image: assets/images/Futurama.jpg
+comments: true
 ---
 Dec 2016<br>
 with [Perrin Jones](http://perrin-jones.com/), Meghna Gorrela, Gabby Jones, & Hidy Yi
@@ -21,7 +22,7 @@ Our project for the Art of Engineering class. We designed and fabricated an Ardu
   <div class="mySlides">
     <img src="assets/images/Futurama_parts.jpg" >
   </div>
-    
+
   <div class="mySlides">
     <img src="assets/images/Futurama_test.jpg" >
   </div>
@@ -33,11 +34,11 @@ Our project for the Art of Engineering class. We designed and fabricated an Ardu
   <div class="mySlides">
     <img src="assets/images/Futurama_top.jpg" >
   </div>
-  
+
   <div class="mySlides">
     <img src="assets/images/Futurama_LEDs.jpg" >
   </div>
-  
+
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <a class="next" onclick="plusSlides(1)">❯</a>
 

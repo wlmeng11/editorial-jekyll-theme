@@ -2,6 +2,7 @@
 layout: page
 title: Music Visualizer
 image: assets/images/Music_visualizer.jpg
+comments: true
 ---
 Dec 2017<br>
 with Luis Collado
