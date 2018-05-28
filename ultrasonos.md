@@ -4,7 +4,7 @@ title: UltrasonOS
 image: assets/images/Ultrasound_Analog_Frontend.jpg
 comments: true
 ---
-Spring/Summer/Fall 2017<br>
+February - December 2017<br>
 with Yazmin Feliz et al<br>
 (Columbia University Creative Machines Lab)<br>
 

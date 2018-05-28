@@ -4,7 +4,7 @@ title: The Flash Box
 image: assets/images/The_Flash_Box.jpg
 comments: true
 ---
-Dec 2016
+December 2016
 
 A holiday gift, in which I practiced drawing threads in Fusion 360.
 

@@ -4,7 +4,7 @@ title: Futurama
 image: assets/images/Futurama.jpg
 comments: true
 ---
-Dec 2016<br>
+December 2016<br>
 with [Perrin Jones](http://perrin-jones.com/), Meghna Gorrela, Gabby Jones, & Hidy Yi
 
 [Code on Github](https://github.com/wlmeng11/futurama)<br>

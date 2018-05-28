@@ -4,7 +4,7 @@ title: Copper Coaster
 image: assets/images/Coaster.jpg
 comments: true
 ---
-Mar 2017
+March 2017
 
 Designed in Inkscape and cut out of copper-clad FR-1 using an Othermill.
 

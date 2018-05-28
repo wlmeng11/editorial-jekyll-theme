@@ -4,7 +4,7 @@ title: Sketchbook
 image: assets/images/Sketchbook.jpg
 comments: true
 ---
-Dec 2016
+August 2016
 
 A DIY sketchbook, featuring lasercut acrylic covers, a faux leather spine, and hand-bound pages.
 The [5 hole pamphlet stitch](http://www.designsponge.com/2013/03/bookbinding-101-five-hole-pamphlet-stitch.html)

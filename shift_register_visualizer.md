@@ -4,7 +4,7 @@ title: Shift Register Visualizer
 image: assets/images/Shift_register_visualizer.jpg
 comments: true
 ---
-Feb 2017
+February 2017
 
 My first ever PCB design! Initially prototyped on a breadboard, then drawn in Kicad and fabricated with an Othermill. The data, clock, enable, and reset pins are controlled with pushbuttons. Each pushbutton is debounced with a capacitor and Schmitt trigger.
 

@@ -4,7 +4,7 @@ title: Music Visualizer
 image: assets/images/Music_visualizer.jpg
 comments: true
 ---
-Dec 2017<br>
+December 2017<br>
 with Luis Collado
 
 A 3-band audio music visualizer built on a breadboard for our ELEN 1201 final project. Each band consists of an RC filter, diode peak detector, amplifier stage, and a flash ADC using comparators.

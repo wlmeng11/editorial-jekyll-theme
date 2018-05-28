@@ -4,7 +4,7 @@ title: Inchworm
 image: assets/images/Inchworm.jpg
 comments: true
 ---
-Feb 2017<br>
+February 2017<br>
 with Doga Ozesmi, Haley So, and Erica Jo
 
 Created overnight for the MakeCU 2017 hardware hackathon.<br>
