@@ -85,5 +85,10 @@ layout: default
 			<h3>Sketchbook</h3>
 			<p>2016</p>
 		</article>
+		<article>
+			<a href="{{ 'grad_cap.html' | absolute_url }}" class="image"><img src="assets/images/Gradcap.jpg" alt="" /></a>
+			<h3>Graduation Cap</h3>
+			<p>2016</p>
+		</article>
 	</div>
 </section>
