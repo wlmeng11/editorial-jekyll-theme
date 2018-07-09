@@ -46,6 +46,11 @@ layout: default
 	</header>
 	<div class="posts">
 		<article>
+			<a href="{{ 'chemecar.html' | absolute_url }}" class="image"><img src="assets/images/ChemECar.jpg" alt="" /></a>
+			<h3>Chem-E-Car</h3>
+			<p>2018</p>
+		</article>
+		<article>
 			<a href="{{ 'ultrasonos.html' | absolute_url }}" class="image"><img src="assets/images/Ultrasound_Analog_Frontend_crop.jpg" alt="" /></a>
 			<h3>UltrasonOS</h3>
 			<p>2017</p>
@@ -56,12 +61,12 @@ layout: default
 			<p>2017</p>
 		</article>
 		<article>
-			<a href="{{ 'inchworm.html' | absolute_url }}" class="image"><img src="assets/images/Inchworm.jpg" alt="" /></a>
+			<a href="{{ 'inchworm.html' | absolute_url }}" class="image"><img src="assets/images/Inchworm_square.jpg" alt="" /></a>
 			<h3>Inchworm</h3>
 			<p>2017</p>
 		</article>
 		<article>
-			<a href="{{ 'shift_register_visualizer.html' | absolute_url }}" class="image"><img src="assets/images/Shift_register_visualizer.jpg" alt="" /></a>
+			<a href="{{ 'shift_register_visualizer.html' | absolute_url }}" class="image"><img src="assets/images/Shift_register_visualizer_square.jpg" alt="" /></a>
 			<h3>Shift Register Visualizer</h3>
 			<p>2017</p>
 		</article>
@@ -72,6 +77,11 @@ layout: default
 		</article>
 		<article>
 			<a href="{{ 'music_visualizer.html' | absolute_url }}" class="image"><img src="assets/images/Music_visualizer.gif" alt="" /></a>
+			<!-- <a href="{{ 'music_visualizer.html' | absolute_url }}" class="image">
+			<video width="auto" loop="true" autoplay="autoplay" muted>
+			<source src="assets/images/Music_visualizer.mp4" type="video/mp4" />
+			</video>
+			</a> -->
 			<h3>Music Visualizer</h3>
 			<p>2016</p>
 		</article>
@@ -81,7 +91,7 @@ layout: default
 			<p>2016</p>
 		</article>
 		<article>
-			<a href="{{ 'sketchbook.html' | absolute_url }}" class="image"><img src="assets/images/Sketchbook.jpg" alt="" /></a>
+			<a href="{{ 'sketchbook.html' | absolute_url }}" class="image"><img src="assets/images/Sketchbook_square.jpg" alt="" /></a>
 			<h3>Sketchbook</h3>
 			<p>2016</p>
 		</article>
