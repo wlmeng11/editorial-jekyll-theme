@@ -46,7 +46,7 @@ layout: default
 	</header>
 	<div class="posts">
 		<article>
-			<a href="{{ 'rtl-ultrasound.html' | absolute_url }}" class="image"><img src="assets/images/SimpleRick.jpg" alt="" /></a>
+			<a href="{{ 'rtl-ultrasound.html' | absolute_url }}" class="image"><img src="assets/images/SimpleRick.JPG" alt="" /></a>
 			<h3>rtl-ultrasound</h3>
 			<p>2018</p>
 		</article>

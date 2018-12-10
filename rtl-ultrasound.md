@@ -1,7 +1,7 @@
 ---
 layout: page
 title: rtl-ultrasound
-image:
+image: assets/images/SimpleRick_wideshot.jpg
 comments: true
 ---
 July - August 2018
@@ -23,3 +23,54 @@ And thanks to cheap and flexible SDR devices such as RTL-SDR, much of the hardwa
 
 Drawing upon my experience from [UltrasonOS](ultrasonos.html) and my knowledge as a licensed Ham radio operator,
 I spent most of my free time outside of my job working on this project at home, and was able to go from idea to working prototype in the span of a month.
+
+<hr class="major" />
+
+<div class="container">
+  <div class="mySlides">
+    <img src="assets/images/SimpleRick_mainboard.JPG">
+  </div>
+
+  <div class="mySlides">
+    <img src="assets/images/SimpleRick_TGC_sketch.JPG">
+  </div>
+
+  <div class="mySlides">
+    <img src="assets/images/rtl-ultrasound_experimental_setup.JPG">
+  </div>
+
+  <div class="mySlides">
+    <img src="assets/images/rtl-ultrasound_ControlAnd2Weights.png">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">❮</a>
+  <a class="next" onclick="plusSlides(1)">❯</a>
+
+  <div class="caption-container">
+    <p id="caption"></p>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <img class="demo cursor" src="assets/images/SimpleRick_mainboard.JPG" style="width:100%" onclick="currentSlide(1)"
+      alt="The SimpleRick PCB, fully assembled.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/images/SimpleRick_TGC_sketch.JPG" style="width:100%" onclick="currentSlide(2)"
+      alt="Sketch of the Time Gain Compensation (TGC) circuit, as prototyped on a breadboard.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/images/rtl-ultrasound_experimental_setup.JPG" style="width:100%" onclick="currentSlide(3)"
+      alt="Experimental setup with SimpleRick, piezo, servo motor, boost converter, 12.5 MHz lowpass filter, and RTL-SDR.">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/images/rtl-ultrasound_ControlAnd2Weights.png" style="width:100%" onclick="currentSlide(4)"
+      alt="Experimental results.">
+    </div>
+  </div>
+</div>
+
+<link rel="stylesheet" href="assets/css/gallery.css">
+<script type="text/javascript" src="assets/js/gallery.js"></script>
+
+<hr class="major" />
