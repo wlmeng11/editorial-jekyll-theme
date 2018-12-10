@@ -24,6 +24,14 @@ And thanks to cheap and flexible SDR devices such as RTL-SDR, much of the hardwa
 Drawing upon my experience from [UltrasonOS](ultrasonos.html) and my knowledge as a licensed Ham radio operator,
 I spent most of my free time outside of my job working on this project at home, and was able to go from idea to working prototype in the span of a month.
 
+Explanations, photos, and diagrams can be found on Github, particularly on these pages:
+* [SimpleRick PCB v1.1](https://github.com/wlmeng11/SimpleRick/blob/master/hardware/v1.1/README.md)
+* [HackRF ultrasound signal simulator](https://github.com/wlmeng11/SimpleRick/blob/master/experiments/20180807/hackrf_ultrasound_simulator.ipynb)
+* [Signal processing test code](https://github.com/wlmeng11/rtl-ultrasound/blob/master/experiments/20180813/rtlsdr_ultrasound_test.ipynb)
+* [initial experimental results](https://github.com/wlmeng11/rtl-ultrasound/blob/master/experiments/20180818/rtlsdr_ultrasound_test.ipynb)
+* [experimental results](https://github.com/wlmeng11/rtl-ultrasound/blob/master/experiments/20180821/README.md)
+
+
 <hr class="major" />
 
 <div class="container">
