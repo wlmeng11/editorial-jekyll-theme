@@ -46,13 +46,13 @@ layout: default
 	</header>
 	<div class="posts">
 		<article>
-			<a href="{{ 'rtl-ultrasound.html' | absolute_url }}" class="image"><img src="assets/images/SimpleRick.JPG" alt="" /></a>
-			<h3>rtl-ultrasound</h3>
-			<p>2018</p>
+			<a href="{{ 'IBISflex.html' | absolute_url }}" class="image"><img src="assets/images/IBISflex_animation.gif" alt="" /></a>
+			<h3>IBIS flex PCB</h3>
+			<p>2019</p>
 		</article>
 		<article>
-			<a href="{{ 'chemecar.html' | absolute_url }}" class="image"><img src="assets/images/ChemECar.jpg" alt="" /></a>
-			<h3>Chem-E-Car</h3>
+			<a href="{{ 'rtl-ultrasound.html' | absolute_url }}" class="image"><img src="assets/images/SimpleRick.JPG" alt="" /></a>
+			<h3>rtl-ultrasound</h3>
 			<p>2018</p>
 		</article>
 		<article>
