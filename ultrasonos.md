@@ -5,8 +5,7 @@ image: assets/images/Ultrasound_Analog_Frontend.jpg
 comments: true
 ---
 February - December 2017<br>
-with Yazmin Feliz et al<br>
-(Columbia University Creative Machines Lab)<br>
+with Yazmin Feliz et al (Columbia University [Creative Machines Lab](https://www.creativemachineslab.com/))<br>
 
 We are developing a low cost, open source device called UltrasonOS with the aim of drastically reducing the barrier of access to life-saving ultrasound imaging technology. I created the initial PCB designs and subsequently managed a subteam to iterate upon the PCB designs while I also took on a large part of the microcontroller programming.
 

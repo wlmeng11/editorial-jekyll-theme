@@ -5,7 +5,7 @@ image: assets/images/IBISflex.JPG
 comments: true
 ---
 June 2019<br>
-with Sajjad Moazeni (Columbia University Bioelectronic Systems Lab)<br>
+with Sajjad Moazeni (Columbia University [Bioelectronic Systems Lab](https://bioeeweb.ee.columbia.edu/wordpress/))<br>
 
 I designed a flexible PCB in 3 mil design rules to provide a flexible substrate for flip-chip bonding a flexible CMOS chip for an implantable brain imager.
 
