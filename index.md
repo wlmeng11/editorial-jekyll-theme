@@ -46,8 +46,33 @@ layout: default
 	</header>
 	<div class="posts">
 		<article>
+			<a href="{{ 'strawberry.html' | absolute_url }}" class="image"><img src="assets/images/strawberry_square.jpg" alt="" /></a>
+			<h3>Strawberry</h3>
+			<p>2019</p>
+		</article>
+		<article>
+			<a href="https://audioamp.github.io" class="image"><img src="assets/images/audioamp.jpg" alt="" /></a>
+			<h3>Audio Amp</h3>
+			<p>2019</p>
+		</article>
+		<article>
 			<a href="{{ 'IBISflex.html' | absolute_url }}" class="image"><img src="assets/images/IBISflex_animation.gif" alt="" /></a>
 			<h3>IBIS flex PCB</h3>
+			<p>2019</p>
+		</article>
+		<article>
+			<a href="{{ 'unishank.html' | absolute_url }}" class="image"><img src="assets/images/Unishank.jpg" alt="" /></a>
+			<h3>Deep Brain Fluorescence Imager</h3>
+			<p>2019</p>
+		</article>
+		<article>
+			<a href="{{ 'AMradio.html' | absolute_url }}" class="image"><img src="assets/images/AMradio.jpg" alt="" /></a>
+			<h3>AM Radio Transmitter</h3>
+			<p>2019</p>
+		</article>
+		<article>
+			<a href="{{ 'opamp.html' | absolute_url }}" class="image"><img src="assets/images/opamp.png" alt="" /></a>
+			<h3>Opamp</h3>
 			<p>2019</p>
 		</article>
 		<article>
