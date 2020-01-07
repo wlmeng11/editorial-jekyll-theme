@@ -26,10 +26,12 @@ which won the award for second best paper at the 2019 IEEE Biomedical Circuits a
 a premier international conference in the field of bioelectronics.
 
 *Publications*:
-* J. Choi, A. Taal, E. Pollmann, **W. Meng**, S. Moazeni, L. Moreaux, M. Roukes, K. Shepard, "[Fully Integrated Time-Gated 3D Fluorescence Imager for Deep Neural Imaging](https://bioeeweb.ee.columbia.edu/wordpress/wp-content/uploads/2019/11/8279.pdf)," IEEE Biomedical Circuits and Systems (BioCAS), October 18, 2019.
+
+* J. Choi, A. Taal, E. Pollmann, **W. Meng**, S. Moazeni, L. Moreaux, M. Roukes, K. Shepard, "[Fully Integrated Time-Gated 3D Fluorescence Imager for Deep Neural Imaging](assets/pdf/Choi et al, Fully Integrated Time-Gated 3D Fluorescence Imager for Deep Neural Imaging, BioCAS, 2019.pdf)," IEEE Biomedical Circuits and Systems (BioCAS), October 18, 2019.
 
 *Awards*:
-* *2nd place* paper at BioCAS conference
+
+* *2nd best paper* at BioCAS conference
 * Invited paper (in preparation) for Special Issue of IEEE Transactions on Biomedical Circuits and Systems (TBioCAS) 2020.
 
 <hr class="major" />
@@ -73,6 +75,10 @@ a premier international conference in the field of bioelectronics.
 
   <div class="mySlides">
     <img src="assets/images/Unishank_ASP.jpg">
+  </div>
+
+  <div class="mySlides">
+    <img src="assets/images/Unishank_award.jpg">
   </div>
 
   <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -125,6 +131,10 @@ a premier international conference in the field of bioelectronics.
     <div class="column">
       <img class="demo cursor" src="assets/images/Unishank_ASP.jpg" style="width:100%" onclick="currentSlide(10)"
       alt="Polar plots of angular-sensitivity for each type of Angular Sensitive Pixel (ASP)">
+    </div>
+    <div class="column">
+      <img class="demo cursor" src="assets/images/Unishank_award.jpg" style="width:100%" onclick="currentSlide(11)"
+      alt="Award at BioCAS conference">
     </div>
   </div>
 </div>
