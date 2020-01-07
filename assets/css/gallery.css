@@ -1,4 +1,4 @@
-// Gallery code form https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp
+/* Gallery code from https://www.w3schools.com/howto/howto_js_slideshow_gallery.asp */
 
 * {
   box-sizing: border-box;
@@ -93,6 +93,8 @@ and scale automatically while preserving aspect ratio */
 /* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
+  object-fit: scale-down;
+  height: 20vh;
 }
 
 .active,
