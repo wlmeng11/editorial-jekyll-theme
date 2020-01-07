@@ -106,6 +106,9 @@ in Cadence Virtuoso for IBM's 90 nm CMOS process (cms9flp).
       <img class="demo cursor" src="assets/images/strawberry_shiftbypass.png" style="width:100%" onclick="currentSlide(6)"
       alt="Shift bypass circuit">
     </div>
+  </div>
+
+  <div class="row">
     <div class="column">
       <img class="demo cursor" src="assets/images/strawberry_MUX_schematic.png" style="width:100%" onclick="currentSlide(7)"
       alt="3:1 mux with decoded select lines (schematic)">
@@ -130,6 +133,9 @@ in Cadence Virtuoso for IBM's 90 nm CMOS process (cms9flp).
       <img class="demo cursor" src="assets/images/strawberry_MEM_tiling.jpg" style="width:100%" onclick="currentSlide(12)"
       alt="SRAM tiling diagram">
     </div>
+  </div>
+
+  <div class="row">
     <div class="column">
       <img class="demo cursor" src="assets/images/strawberry_PLA_testbench.png" style="width:100%" onclick="currentSlide(13)"
       alt="Testbench for Programmable Logic Array (PLA) control logic">

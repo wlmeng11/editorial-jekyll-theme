@@ -13,10 +13,12 @@ I joined Prof. Ken Shepard's Bioelectronic Systems Lab during my junior year
 to work on next-generation neural interfaces based on Single Photon Avalanche Diode (SPAD) photodetectors,
 which offer unrivaled speed and resolution compared to electric and magnetic field sensors.
 
-The imager chip was fabricated in TSMC's 130 nm BCD process and integrates microLED illuminators and SPAD photodetectors into a needle-like form factor
+The imager chip was fabricated in TSMC's 130 nm BCD process.
+It integrates microLED illuminators and SPAD photodetectors into a needle-like form factor
 in order to perform fluorescence lifetime imaging of deep tissue in a mouse brain.
 Because the microscale form factor of the system prohibits a physical lens to focus the light,
 a compressed sensing scheme which utilizes an ensemble of angular-sensitive pixels
+(based on a variety of Talbot diffraction gratings)
 allows for computational focusing and reconstruction of a 3D image.
 
 I assembled and tested the PCBs, collected data, and created simulations and plots that were included in my co-authored paper,
@@ -27,7 +29,7 @@ a premier international conference in the field of bioelectronics.
 * J. Choi, A. Taal, E. Pollmann, **W. Meng**, S. Moazeni, L. Moreaux, M. Roukes, K. Shepard, "[Fully Integrated Time-Gated 3D Fluorescence Imager for Deep Neural Imaging](https://bioeeweb.ee.columbia.edu/wordpress/wp-content/uploads/2019/11/8279.pdf)," IEEE Biomedical Circuits and Systems (BioCAS), October 18, 2019.
 
 *Awards*:
-* 2nd best paper at BioCAS conference
+* *2nd place* paper at BioCAS conference
 * Invited paper (in preparation) for Special Issue of IEEE Transactions on Biomedical Circuits and Systems (TBioCAS) 2020.
 
 <hr class="major" />
@@ -105,6 +107,9 @@ a premier international conference in the field of bioelectronics.
       <img class="demo cursor" src="assets/images/Unishank_microLED.jpg" style="width:100%" onclick="currentSlide(6)"
       alt="Flip-chip bonded microLED under microscope">
     </div>
+  </div>
+
+  <div class="row">
     <div class="column">
       <img class="demo cursor" src="assets/images/Unishank_blue.jpg" style="width:100%" onclick="currentSlide(7)"
       alt="microLED illuminated under microscope">
