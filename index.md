@@ -3,43 +3,6 @@ layout: default
 ---
 
 <!-- Section -->
-<!-- <section>
-	<header class="major">
-		<h2>What I do</h2>
-	</header>
-	<div class="features">
-		<article>
-			<span class="icon fa-diamond"></span>
-			<div class="content">
-				<h3>Portitor ullamcorper</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			</div>
-		</article>
-		<article>
-			<span class="icon fa-paper-plane"></span>
-			<div class="content">
-				<h3>Sapien veroeros</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			</div>
-		</article>
-		<article>
-			<span class="icon fa-rocket"></span>
-			<div class="content">
-				<h3>Quam lorem ipsum</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			</div>
-		</article>
-		<article>
-			<span class="icon fa-signal"></span>
-			<div class="content">
-				<h3>Sed magna finibus</h3>
-				<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
-			</div>
-		</article>
-	</div>
-</section> -->
-
-<!-- Section -->
 <section>
 	<header class="major">
 		<h2>Portfolio</h2>
@@ -67,13 +30,18 @@ layout: default
 		</article>
 		<article>
 			<a href="{{ 'AMradio.html' | absolute_url }}" class="image"><img src="assets/images/AMradio.jpg" alt="" /></a>
-			<h3>AM Radio Transmitter</h3>
+			<h3>AM Radio Transmitter (coming soon!)</h3>
 			<p>2019</p>
 		</article>
 		<article>
 			<a href="{{ 'opamp.html' | absolute_url }}" class="image"><img src="assets/images/opamp.png" alt="" /></a>
-			<h3>Opamp</h3>
-			<p>2019</p>
+			<h3>Opamp (coming soon!)</h3>
+			<p>2018</p>
+		</article>
+		<article>
+			<a href="{{ 'buildanotebook.html' | absolute_url }}" class="image"><img src="assets/images/" alt="" /></a>
+			<h3>Build-A-Notebook (coming soon!)</h3>
+			<p>2018</p>
 		</article>
 		<article>
 			<a href="{{ 'rtl-ultrasound.html' | absolute_url }}" class="image"><img src="assets/images/SimpleRick.JPG" alt="" /></a>
