@@ -28,3 +28,24 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
   captionText.innerHTML = dots[slideIndex-1].alt;
 }
+
+// Use arrow keys to navigate the gallery
+// Code from https://stackoverflow.com/a/9310900
+document.onkeydown = checkKey;
+function checkKey(e) {
+    e = e || window.event;
+    if (e.keyCode == '38') {
+        // up arrow
+    }
+    else if (e.keyCode == '40') {
+        // down arrow
+    }
+    else if (e.keyCode == '37') {
+       // left arrow
+       plusSlides(-1);
+    }
+    else if (e.keyCode == '39') {
+       // right arrow
+       plusSlides(1);
+    }
+}
