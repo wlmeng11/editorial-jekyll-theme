@@ -42,7 +42,7 @@ I designed a flexible PCB in 3 mil design rules to provide a flexible substrate 
     </div>
     <div class="column">
       <img class="demo cursor" src="assets/images/IBISflex_chip.jpg" style="width:100%" onclick="currentSlide(3)"
-      alt="Board with flip-chip bonded chip">
+      alt="Board with flip-chip bonded chip (photo from Sajjad Moazeni)">
     </div>
   </div>
 </div>

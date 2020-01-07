@@ -28,8 +28,8 @@ Explanations, photos, and diagrams can be found on Github, particularly on these
 * [SimpleRick PCB v1.1](https://github.com/wlmeng11/SimpleRick/blob/master/hardware/v1.1/README.md)
 * [HackRF ultrasound signal simulator](https://github.com/wlmeng11/SimpleRick/blob/master/experiments/20180807/hackrf_ultrasound_simulator.ipynb)
 * [Signal processing test code](https://github.com/wlmeng11/rtl-ultrasound/blob/master/experiments/20180813/rtlsdr_ultrasound_test.ipynb)
-* [initial experimental results](https://github.com/wlmeng11/rtl-ultrasound/blob/master/experiments/20180818/rtlsdr_ultrasound_test.ipynb)
-* [experimental results](https://github.com/wlmeng11/rtl-ultrasound/blob/master/experiments/20180821/README.md)
+* [Initial experimental results](https://github.com/wlmeng11/rtl-ultrasound/blob/master/experiments/20180818/rtlsdr_ultrasound_test.ipynb)
+* [Experimental results](https://github.com/wlmeng11/rtl-ultrasound/blob/master/experiments/20180821/README.md)
 
 
 <hr class="major" />
