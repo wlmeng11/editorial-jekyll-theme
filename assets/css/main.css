@@ -1,12 +1,14 @@
 @import url(font-awesome.min.css);
 /* @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700"); */
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css?family=Lora&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap'); */
+@import url('https://fonts.googleapis.com/css?family=Martel&display=swap');
 
 /*
 	Editorial by HTML5 UP
@@ -2079,8 +2081,11 @@
 	body, input, select, textarea {
 		color: #7f888f;
 		/* font-family: "Open Sans", sans-serif; */
-		font-family: 'Source Sans Pro', sans-serif;
-		/* font-family: 'Lora', sans-serif; */
+		/* font-family: 'Source Sans Pro', sans-serif; */
+		/* font-family: 'Lora', Times, serif; */
+		font-family: 'Martel', Times, serif;
+		/* font-family: Georgia, 'Times New Roman', Times, serif; */
+		/* font-family: 'Playfair Display', serif; */
 		/* font-family: 'Fira Sans', sans-serif; */
 		/* font-size: 13pt; */
 		font-size: 14pt;
@@ -2150,9 +2155,11 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: #3d4449;
 		/* font-family: "Roboto Slab", serif; */
-		/* font-family: 'Playfair Display', serif; */
+		font-family: 'Playfair Display', serif;
+		/* font-family: 'Martel', serif; */
 		/* font-family: 'Montserrat', sans-serif; */
-		font-family: 'Alegreya Sans', sans-serif;
+		/* font-family: 'Alegreya Sans', sans-serif; */
+		/* font-family: 'Playfair Display SC', serif;  */
 		/* font-family: 'Ubuntu', sans-serif; */
 		/* font-family: 'Oxygen', sans-serif; */
 		/* font-family: 'Source Sans Pro', sans-serif; */
@@ -2294,8 +2301,8 @@
 
 	header p {
 		/* font-family: "Roboto Slab", serif; */
-		/* font-family: 'Playfair Display', serif; */
-		font-family: 'Alegreya Sans', sans-serif;
+		font-family: 'Playfair Display', serif;
+		/* font-family: 'Alegreya Sans', sans-serif; */
 		font-size: 1em;
 		font-weight: 400;
 		letter-spacing: 0.075em;
@@ -4097,4 +4104,9 @@
 			border-top: 0;
 			margin-top: 0;
 			padding-top: 0;
+		}
+
+
+		.caption-container {
+			font-family: 'Source Sans Pro', sans-serif;
 		}
