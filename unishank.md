@@ -25,11 +25,11 @@ I assembled and tested the PCBs, collected data, and created simulations and plo
 which won the award for second best paper at the 2019 IEEE Biomedical Circuits and Systems (BioCAS) conference,
 a premier international conference in the field of bioelectronics.
 
-*Publications*:
+*Publications:*
 
 * J. Choi, A. Taal, E. Pollmann, **W. Meng**, S. Moazeni, L. Moreaux, M. Roukes, K. Shepard, "[Fully Integrated Time-Gated 3D Fluorescence Imager for Deep Neural Imaging](assets/pdf/Choi et al, Fully Integrated Time-Gated 3D Fluorescence Imager for Deep Neural Imaging, BioCAS, 2019.pdf)," IEEE Biomedical Circuits and Systems (BioCAS), October 18, 2019.
 
-*Awards*:
+*Awards:*
 
 * *2nd best paper* at BioCAS conference
 * Invited paper (in preparation) for Special Issue of IEEE Transactions on Biomedical Circuits and Systems (TBioCAS) 2020.
