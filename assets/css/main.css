@@ -1,6 +1,12 @@
 @import url(font-awesome.min.css);
 /* @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700"); */
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Lora&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap'); */
 
 /*
 	Editorial by HTML5 UP
@@ -2074,6 +2080,8 @@
 		color: #7f888f;
 		/* font-family: "Open Sans", sans-serif; */
 		font-family: 'Source Sans Pro', sans-serif;
+		/* font-family: 'Lora', sans-serif; */
+		/* font-family: 'Fira Sans', sans-serif; */
 		/* font-size: 13pt; */
 		font-size: 14pt;
 		font-weight: 400;
@@ -2142,7 +2150,12 @@
 	h1, h2, h3, h4, h5, h6 {
 		color: #3d4449;
 		/* font-family: "Roboto Slab", serif; */
-		font-family: 'Playfair Display', serif;
+		/* font-family: 'Playfair Display', serif; */
+		/* font-family: 'Montserrat', sans-serif; */
+		font-family: 'Alegreya Sans', sans-serif;
+		/* font-family: 'Ubuntu', sans-serif; */
+		/* font-family: 'Oxygen', sans-serif; */
+		/* font-family: 'Source Sans Pro', sans-serif; */
 		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -2281,7 +2294,8 @@
 
 	header p {
 		/* font-family: "Roboto Slab", serif; */
-		font-family: 'Playfair Display', serif;
+		/* font-family: 'Playfair Display', serif; */
+		font-family: 'Alegreya Sans', sans-serif;
 		font-size: 1em;
 		font-weight: 400;
 		letter-spacing: 0.075em;
@@ -2971,7 +2985,8 @@
 		cursor: pointer;
 		display: inline-block;
 		/* font-family: "Roboto Slab", serif; */
-		font-family: 'Playfair Display', serif;
+		/* font-family: 'Playfair Display', serif; */
+		font-family: 'Alegreya Sans', sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 3.5em;
@@ -3988,7 +4003,8 @@
 		user-select: none;
 		color: #3d4449;
 		/* font-family: "Roboto Slab", serif; */
-		font-family: 'Playfair Display', serif;
+		/* font-family: 'Playfair Display', serif; */
+		font-family: 'Alegreya Sans', sans-serif;
 		font-family: 400;
 		letter-spacing: 0.075em;
 		list-style: none;
