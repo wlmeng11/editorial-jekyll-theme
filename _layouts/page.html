@@ -21,7 +21,9 @@
 
                 <!-- Content -->
                 <section>
+                <div style="max-width: 900px; margin:0 auto;">
                 	<header class="main">
+                  <!-- <header class="main" style="max-width: 900px; margin:0 auto;"> -->
                 		<h1>{{ page.title }}</h1>
                 	</header>
 
@@ -29,7 +31,6 @@
                 	<span class="image main"><img src="{{ page.image | absolute_url }}" alt="" /></span>
                   {% endif %}
 
-                <div style="max-width: 900px; margin:0 auto;">
                   {{ content }}
 
                   {% if page.comments %}
