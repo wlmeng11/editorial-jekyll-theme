@@ -2079,15 +2079,10 @@
 /* Type */
 
 	body, input, select, textarea {
-		color: #7f888f;
-		/* font-family: "Open Sans", sans-serif; */
-		/* font-family: 'Source Sans Pro', sans-serif; */
-		/* font-family: 'Lora', Times, serif; */
-		font-family: 'Martel', Times, serif;
-		/* font-family: Georgia, 'Times New Roman', Times, serif; */
-		/* font-family: 'Playfair Display', serif; */
-		/* font-family: 'Fira Sans', sans-serif; */
-		/* font-size: 13pt; */
+		/* color: #7f888f; */
+		color: #000000;
+		/* font-family: 'Martel', Times, serif; */
+		font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
 		font-size: 14pt;
 		font-weight: 400;
 		line-height: 1.65;
@@ -2154,15 +2149,7 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #3d4449;
-		/* font-family: "Roboto Slab", serif; */
 		font-family: 'Playfair Display', serif;
-		/* font-family: 'Martel', serif; */
-		/* font-family: 'Montserrat', sans-serif; */
-		/* font-family: 'Alegreya Sans', sans-serif; */
-		/* font-family: 'Playfair Display SC', serif;  */
-		/* font-family: 'Ubuntu', sans-serif; */
-		/* font-family: 'Oxygen', sans-serif; */
-		/* font-family: 'Source Sans Pro', sans-serif; */
 		font-weight: 700;
 		line-height: 1.5;
 		margin: 0 0 1em 0;
@@ -2699,7 +2686,9 @@
 				}
 
 				ul.icons li .icon {
-					color: inherit;
+					/* color: inherit; */
+					color: #3d4449;
+					/* color: #7f888f; */
 				}
 
 					ul.icons li .icon:before {
