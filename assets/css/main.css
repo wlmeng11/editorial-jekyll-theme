@@ -1,14 +1,7 @@
 @import url(font-awesome.min.css);
 /* @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,400italic,600italic|Roboto+Slab:400,700"); */
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Source+Sans+Pro&display=swap');
-/* @import url('https://fonts.googleapis.com/css?family=Alegreya+Sans&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css?family=Oxygen&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css?family=Lora&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap'); */
-/* @import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap'); */
-@import url('https://fonts.googleapis.com/css?family=Martel&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
 
 /*
 	Editorial by HTML5 UP
@@ -2287,14 +2280,12 @@
 	}
 
 	header p {
-		/* font-family: "Roboto Slab", serif; */
-		font-family: 'Playfair Display', serif;
-		/* font-family: 'Alegreya Sans', sans-serif; */
+		font-family: 'Playfair Display SC', serif;
 		font-size: 1em;
 		font-weight: 400;
 		letter-spacing: 0.075em;
 		margin-top: -0.5em;
-		text-transform: uppercase;
+		/* text-transform: uppercase; */
 	}
 
 	header.major > :last-child {
