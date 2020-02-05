@@ -36,112 +36,42 @@ a premier international conference in the field of bioelectronics.
 
 <hr class="major" />
 
-<div class="container">
-  <div class="mySlides">
-    <img src="assets/images/Unishank_chip.jpg">
-  </div>
+<div class="container" id="gallery"></div>
 
-  <div class="mySlides">
-    <img src="assets/images/Unishank_fineplacer.jpg">
-  </div>
+<script type="text/javascript" src="assets/js/generategallery.js"></script>
+<script>
+  var filenames = [
+    "Unishank_chip.jpg",
+    "Unishank_fineplacer.jpg",
+    "Unishank_dummy_wafer.JPG",
+    "Unishank_probing.JPG",
+    "Unishank_probe_station.JPG",
+    "Unishank_microLED.jpg",
+    "Unishank_blue.jpg",
+    "Unishank_board_setup.jpg",
+    "Unishank_radiation_profile.jpg",
+    "Unishank_ASP.jpg",
+    "Unishank_award.jpg"
+  ];
+  var captions = [
+    "<strike> The world's smallest stringed instrument</strike> Test chip (not diced) wirebonded to daughterboard",
+    "Aligning microLED with dummy wafer for flip-chip bonding on the Fineplacer lambda",
+    "microLED with dummy wafer attached to chip",
+    "Probing microLED on the probe station",
+    "microLED illuminated by probe station",
+    "Flip-chip bonded microLED under microscope",
+    "microLED illuminated under microscope",
+    "Motherboard with FPGA connected",
+    "Profile of light intensity above the chip (assuming isotropic light emission and no scattering)",
+    "Polar plots of angular-sensitivity for each type of Angular Sensitive Pixel (ASP)",
+    "Award at BioCAS conference"
+  ];
 
-  <div class="mySlides">
-    <img src="assets/images/Unishank_dummy_wafer.JPG">
-  </div>
-
-  <div class="mySlides">
-    <img src="assets/images/Unishank_probing.JPG">
-  </div>
-
-  <div class="mySlides">
-    <img src="assets/images/Unishank_probe_station.JPG">
-  </div>
-
-  <div class="mySlides">
-    <img src="assets/images/Unishank_microLED.jpg">
-  </div>
-
-  <div class="mySlides">
-    <img src="assets/images/Unishank_blue.jpg">
-  </div>
-
-  <div class="mySlides">
-    <img src="assets/images/Unishank_board_setup.jpg">
-  </div>
-
-  <div class="mySlides">
-    <img src="assets/images/Unishank_radiation_profile.jpg">
-  </div>
-
-  <div class="mySlides">
-    <img src="assets/images/Unishank_ASP.jpg">
-  </div>
-
-  <div class="mySlides">
-    <img src="assets/images/Unishank_award.jpg">
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Unishank_chip.jpg" style="width:100%" onclick="currentSlide(1)"
-      alt="<strike> The world's smallest stringed instrument</strike> Test chip (not diced) wirebonded to daughterboard">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Unishank_fineplacer.jpg" style="width:100%" onclick="currentSlide(2)"
-      alt="Aligning microLED with dummy wafer for flip-chip bonding on the Fineplacer lambda">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Unishank_dummy_wafer.JPG" style="width:100%" onclick="currentSlide(3)"
-      alt="microLED with dummy wafer attached to chip">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Unishank_probing.JPG" style="width:100%" onclick="currentSlide(4)"
-      alt="Probing microLED on the probe station">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Unishank_probe_station.JPG" style="width:100%" onclick="currentSlide(5)"
-      alt="microLED illuminated by probe station">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Unishank_microLED.jpg" style="width:100%" onclick="currentSlide(6)"
-      alt="Flip-chip bonded microLED under microscope">
-    </div>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Unishank_blue.jpg" style="width:100%" onclick="currentSlide(7)"
-      alt="microLED illuminated under microscope">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Unishank_board_setup.jpg" style="width:100%" onclick="currentSlide(8)"
-      alt="Motherboard with FPGA connected">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Unishank_radiation_profile.jpg" style="width:100%" onclick="currentSlide(9)"
-      alt="Profile of light intensity above the chip (assuming isotropic light emission and no scattering)">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Unishank_ASP.jpg" style="width:100%" onclick="currentSlide(10)"
-      alt="Polar plots of angular-sensitivity for each type of Angular Sensitive Pixel (ASP)">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Unishank_award.jpg" style="width:100%" onclick="currentSlide(11)"
-      alt="Award at BioCAS conference">
-    </div>
-  </div>
-</div>
+  <!-- Note that we need to call this BEFORE gallery.js is loaded -->
+  generateGallery(filenames, captions);
+</script>
 
 <hr class="major" />
 
 <link rel="stylesheet" href="assets/css/gallery.css">
 <script type="text/javascript" src="assets/js/gallery.js"></script>
-
-
