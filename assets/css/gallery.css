@@ -8,6 +8,7 @@
 .container {
   position: relative;
   width: 100%;
+  font-size: 0; /* remove whitespace between rows of thumbnails */
   background-color: #222;
 }
 
@@ -71,6 +72,7 @@ and scale automatically while preserving aspect ratio */
 
 /* Container for image text */
 .caption-container {
+  font-size: 11pt; /* need this because parent has font-size 0 */
   min-height: 4em;
   text-align: center;
   background-color: #222;
