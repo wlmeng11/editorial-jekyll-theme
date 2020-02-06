@@ -1,25 +1,23 @@
-function generateGallery(filenames, captions) {
-  const x=0;
+function generateGalleryHTML(filenames, captions) {
   console.log("Generating gallery...");
   console.log(filenames);
   console.log(captions);
 
   const parentElement = document.getElementById('gallery');
-//   parentElement.innerHTML += "I am a gallery";
   
+  // Generate HTML for each image and thumbnail
   const n = filenames.length
-  var thumb_html = [];
   var img_html = [];
-
+  var thumb_html = [];
   var i;
   for (i = 0; i < n; i++) {
     filename = filenames[i];
     caption = captions[i];
     slide_index = i+1;
 
-    thumb_html.push('<div class="mySlides"><img src="assets/images/' + filename + '"></div>');
+    img_html.push('<div class="mySlides"><img src="assets/images/' + filename + '"></div>');
 
-    img_html.push([
+    thumb_html.push([
       '<div class="column">',
       '<img class="demo cursor" src="assets/images/' + filename 
       + '" style="width:100%" onclick="currentSlide(' + slide_index + ')"',
@@ -28,13 +26,12 @@ function generateGallery(filenames, captions) {
     ].join("\n"));
   }
 
-  console.log(thumb_html[0]);
-  console.log(img_html[0]);
-
-  for (i=0; i<n; i++) {
-    parentElement.innerHTML += thumb_html[i];
+  // Append HTML for each image to parentElement
+  for (i = 0; i < n; i++) {
+    parentElement.innerHTML += img_html[i];
   }
 
+  // Append middle HTML (buttons and caption) to parentElement
   const middleHTML = [
     '<a class="prev" onclick="plusSlides(-1)">❮</a>',
     '<a class="next" onclick="plusSlides(1)">❯</a>',
@@ -44,11 +41,11 @@ function generateGallery(filenames, captions) {
   ].join("\n");
   parentElement.innerHTML += middleHTML;
 
-  var imageHTML ='<div class="row">';
-  for (i=0; i<n; i++) {
-    imageHTML += img_html[i];
+  // Append HTML for each thumbnail to parentElement
+  var thumbHTML ='<div class="row">';
+  for (i = 0; i < n; i++) {
+    thumbHTML += thumb_html[i];
   }
-  imageHTML += '</div>';
-  parentElement.innerHTML += imageHTML;
-
+  thumbHTML += '</div>';
+  parentElement.innerHTML += thumbHTML;
 }

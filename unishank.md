@@ -68,7 +68,7 @@ a premier international conference in the field of bioelectronics.
   ];
 
   <!-- Note that we need to call this BEFORE gallery.js is loaded -->
-  generateGallery(filenames, captions);
+  generateGalleryHTML(filenames, captions);
 </script>
 
 <hr class="major" />
