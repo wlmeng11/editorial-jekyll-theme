@@ -58,23 +58,21 @@ Explanations, photos, and diagrams can be found on Github, particularly on these
     <p id="caption"></p>
   </div>
 
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="assets/images/SimpleRick_mainboard.JPG" style="width:100%" onclick="currentSlide(1)"
-      alt="The SimpleRick PCB, fully assembled.">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/SimpleRick_TGC_sketch.JPG" style="width:100%" onclick="currentSlide(2)"
-      alt="Sketch of the Time Gain Compensation (TGC) circuit, as prototyped on a breadboard.">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/rtl-ultrasound_experimental_setup.JPG" style="width:100%" onclick="currentSlide(3)"
-      alt="Experimental setup with SimpleRick, piezo, servo motor, boost converter, 12.5 MHz lowpass filter, and RTL-SDR.">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/rtl-ultrasound_ControlAnd2Weights.png" style="width:100%" onclick="currentSlide(4)"
-      alt="Experimental results.">
-    </div>
+  <div class="column">
+    <img class="demo cursor" src="assets/images/SimpleRick_mainboard.JPG" style="width:100%" onclick="currentSlide(1)"
+    alt="The SimpleRick PCB, fully assembled.">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="assets/images/SimpleRick_TGC_sketch.JPG" style="width:100%" onclick="currentSlide(2)"
+    alt="Sketch of the Time Gain Compensation (TGC) circuit, as prototyped on a breadboard.">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="assets/images/rtl-ultrasound_experimental_setup.JPG" style="width:100%" onclick="currentSlide(3)"
+    alt="Experimental setup with SimpleRick, piezo, servo motor, boost converter, 12.5 MHz lowpass filter, and RTL-SDR.">
+  </div>
+  <div class="column">
+    <img class="demo cursor" src="assets/images/rtl-ultrasound_ControlAnd2Weights.png" style="width:100%" onclick="currentSlide(4)"
+    alt="Experimental results.">
   </div>
 </div>
 

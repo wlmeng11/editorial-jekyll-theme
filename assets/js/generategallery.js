@@ -42,10 +42,9 @@ function generateGalleryHTML(filenames, captions) {
   parentElement.innerHTML += middleHTML;
 
   // Append HTML for each thumbnail to parentElement
-  var thumbHTML ='<div class="row">';
+  var thumbHTML = '';
   for (i = 0; i < n; i++) {
     thumbHTML += thumb_html[i];
   }
-  thumbHTML += '</div>';
   parentElement.innerHTML += thumbHTML;
 }

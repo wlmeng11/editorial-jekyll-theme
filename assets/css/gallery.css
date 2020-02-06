@@ -87,17 +87,32 @@ and scale automatically while preserving aspect ratio */
 /* Six columns side by side */
 .column {
   float: left;
-  width: 16.66%;
+  width: 20%;
+  position: relative;
+  background-color: #20a7db
+}
+
+/* Square thumbnails */
+.column:after {
+  content: "";
+  display: block;
+  padding-bottom: 100%;
+}
+
+.column img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 /* Add a transparency effect for thumnbail images */
 .demo {
-  opacity: 0.6;
-  object-fit: scale-down;
-  height: 20vh;
+  opacity: 1;
+  object-fit: cover;
 }
 
 .active,
 .demo:hover {
-  opacity: 1;
+  opacity: 0.7;
 }
