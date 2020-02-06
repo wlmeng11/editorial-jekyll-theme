@@ -18,67 +18,32 @@ We designed the PCBs in [Kicad](http://kicad-pcb.org/) and utilized a combinatio
 
 <hr class="major" />
 
-<div class="container">
-  <div class="mySlides">
-    <img src="assets/images/Ultrasound_Nucleo_DAQ_Shield.jpg">
-  </div>
 
-  <div class="mySlides">
-    <img src="assets/images/Ultrasound_piezo.jpg" >
-  </div>
+<div class="container" id="gallery"></div>
 
-  <div class="mySlides">
-    <img src="assets/images/Ultrasound_3_layer_sandwich.png" >
-  </div>
+<script type="text/javascript" src="assets/js/generategallery.js"></script>
+<script>
+  var filenames = [
+    "Ultrasound_Nucleo_DAQ_Shield.jpg",
+    "Ultrasound_piezo.jpg",
+    "Ultrasound_3_layer_sandwich.png",
+    "Ultrasound_envelope.png",
+    "Ultrasound_A_mode.jpg",
+    "Ultrasound_data_streaming.jpg"
+  ];
+  var captions = [
+    "Nucleo DAQ Shield, connected to STM32 Nucleo board",
+    "Piezoelectric transducer coated in gel, which fills in air gaps between the transducer and the target medium. This is necessary because air has a drastically mismatching acoustic impedance compared to water and flesh.",
+    "Visual of how propagation delay corresponds to the distance between the transducer and each density boundary of the target medium",
+    "Ultrasound signal (pink) and the envelope signal extracted from it (blue)",
+    "Handheld “probe” for A-mode imaging (ie. 1 dimensional boundary data)",
+    "Data streaming from Nucleo board to my laptop"
+  ];
 
-  <div class="mySlides">
-    <img src="assets/images/Ultrasound_envelope.png" >
-  </div>
-
-  <div class="mySlides">
-    <img src="assets/images/Ultrasound_A_mode.jpg" >
-  </div>
-
-  <div class="mySlides">
-    <img src="assets/images/Ultrasound_data_streaming.jpg" >
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Ultrasound_Nucleo_DAQ_Shield.jpg" style="width:100%" onclick="currentSlide(1)"
-      alt="Nucleo DAQ Shield, connected to STM32 Nucleo board">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Ultrasound_piezo.jpg" style="width:100%" onclick="currentSlide(2)"
-      alt="Piezoelectric transducer coated in gel, which fills in air gaps between the transducer and the target medium. This is necessary because air has a drastically mismatching acoustic impedance compared to water and flesh.">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Ultrasound_3_layer_sandwich.png" style="width:100%" onclick="currentSlide(3)"
-      alt="Visual of how propagation delay corresponds to the distance between the transducer and each density boundary of the target medium">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Ultrasound_envelope.png" style="width:100%" onclick="currentSlide(4)"
-      alt="Ultrasound signal (pink) and the envelope signal extracted from it (blue)">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Ultrasound_A_mode.jpg" style="width:100%" onclick="currentSlide(5)"
-      alt="Handheld “probe” for A-mode imaging (ie. 1 dimensional boundary data)">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Ultrasound_data_streaming.jpg" style="width:100%" onclick="currentSlide(6)"
-      alt="Data streaming from Nucleo board to my laptop">
-    </div>
-  </div>
-</div>
+  <!-- Note that we need to call this BEFORE gallery.js is loaded -->
+  generateGalleryHTML(filenames, captions);
+</script>
 
 <hr class="major" />
-
 <link rel="stylesheet" href="assets/css/gallery.css">
 <script type="text/javascript" src="assets/js/gallery.js"></script>

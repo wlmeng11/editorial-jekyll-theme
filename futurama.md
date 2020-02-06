@@ -14,67 +14,31 @@ Our project for the Art of Engineering class. We designed and fabricated an Ardu
 
 <hr class="major" />
 
-<div class="container">
-  <div class="mySlides">
-    <img src="assets/images/Futurama_diagram.jpg">
-  </div>
+<div class="container" id="gallery"></div>
 
-  <div class="mySlides">
-    <img src="assets/images/Futurama_parts.jpg" >
-  </div>
+<script type="text/javascript" src="assets/js/generategallery.js"></script>
+<script>
+  var filenames = [
+    "Futurama_diagram.jpg",
+    "Futurama_parts.jpg",
+    "Futurama_test.jpg",
+    "Futurama_side.jpg",
+    "Futurama_top.jpg",
+    "Futurama_LEDs.jpg"
+  ];
+  var captions = [
+    "Wiring diagram",
+    "Trying to get a sense of where everything should go",
+    "Prototype on a breadboard",
+    "Side view of partial assembly",
+    "Top view of partial assembly",
+    "Soldering LEDs for aesthetically pleasing case lighting"
+  ];
 
-  <div class="mySlides">
-    <img src="assets/images/Futurama_test.jpg" >
-  </div>
-
-  <div class="mySlides">
-    <img src="assets/images/Futurama_side.jpg" >
-  </div>
-
-  <div class="mySlides">
-    <img src="assets/images/Futurama_top.jpg" >
-  </div>
-
-  <div class="mySlides">
-    <img src="assets/images/Futurama_LEDs.jpg" >
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Futurama_diagram.jpg" style="width:100%" onclick="currentSlide(1)"
-      alt="Wiring diagram">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Futurama_parts.jpg" style="width:100%" onclick="currentSlide(2)"
-      alt="Trying to get a sense of where everything should go">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Futurama_test.jpg" style="width:100%" onclick="currentSlide(3)"
-      alt="Prototype on a breadboard">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Futurama_side.jpg" style="width:100%" onclick="currentSlide(4)"
-      alt="Side view of partial assembly">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Futurama_top.jpg" style="width:100%" onclick="currentSlide(5)"
-      alt="Top view of partial assembly">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Futurama_LEDs.jpg" style="width:100%" onclick="currentSlide(6)"
-      alt="Soldering LEDs for aesthetically pleasing case lighting">
-    </div>
-  </div>
-</div>
-
-<link rel="stylesheet" href="assets/css/gallery.css">
-<script type="text/javascript" src="assets/js/gallery.js"></script>
+  <!-- Note that we need to call this BEFORE gallery.js is loaded -->
+  generateGalleryHTML(filenames, captions);
+</script>
 
 <hr class="major" />
+<link rel="stylesheet" href="assets/css/gallery.css">
+<script type="text/javascript" src="assets/js/gallery.js"></script>

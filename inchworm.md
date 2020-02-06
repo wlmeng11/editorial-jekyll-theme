@@ -14,49 +14,25 @@ The “back” of the inchworm is a sheet of plywood cut in such a way as to for
 
 <hr class="major" />
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IfFF9oWX17U?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div class="container" id="gallery"></div>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/pit3s5Mq2Ro?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<script type="text/javascript" src="assets/js/generategallery.js"></script>
+<script>
+  var filenames = [
+    "Inchworm_cardboard.jpg",
+    "Inchworm_mechanism.jpg",
+    "Inchworm_arch.jpg"
+  ];
+  var captions = [
+    "Mock up in cardboard",
+    "Winch and wheel mechanisms",
+    "Living hinge, compressed into an arch shape"
+  ];
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/k6DmN1Q-_F8?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-<div class="container">
-  <div class="mySlides">
-    <img src="assets/images/Inchworm_cardboard.jpg">
-  </div>
-
-  <div class="mySlides">
-    <img src="assets/images/Inchworm_mechanism.jpg">
-  </div>
-
-  <div class="mySlides">
-    <img src="assets/images/Inchworm_arch.jpg" >
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Inchworm_cardboard.jpg" style="width:100%" onclick="currentSlide(1)"
-      alt="Mock up in cardboard">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Inchworm_mechanism.jpg" style="width:100%" onclick="currentSlide(2)"
-      alt="Winch and wheel mechanisms">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Inchworm_arch.jpg" style="width:100%" onclick="currentSlide(3)"
-      alt="Living hinge, compressed into an arch shape">
-    </div>
-  </div>
-</div>
+  <!-- Note that we need to call this BEFORE gallery.js is loaded -->
+  generateGalleryHTML(filenames, captions);
+</script>
 
 <hr class="major" />
-
 <link rel="stylesheet" href="assets/css/gallery.css">
 <script type="text/javascript" src="assets/js/gallery.js"></script>

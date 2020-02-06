@@ -11,41 +11,24 @@ I designed a flexible PCB in 3 mil design rules to provide a flexible substrate 
 
 <hr class="major" />
 
-<div class="container">
-  <div class="mySlides">
-    <img src="assets/images/IBISflex_hand.JPG">
-  </div>
+<div class="container" id="gallery"></div>
 
-  <div class="mySlides">
-    <img src="assets/images/IBISflex_traces.JPG">
-  </div>
+<script type="text/javascript" src="assets/js/generategallery.js"></script>
+<script>
+  var filenames = [
+    "IBISflex_hand.JPG",
+    "IBISflex_traces.JPG",
+    "IBISflex_chip.jpg"
+  ];
+  var captions = [
+    "IBIS flex PCB, with hand for scale",
+    "Close up of FFC-compatible fingers under microscope",
+    "Board with flip-chip bonded chip (photo by Sajjad Moazeni)"
+  ];
 
-  <div class="mySlides">
-    <img src="assets/images/IBISflex_chip.jpg">
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="assets/images/IBISflex_hand.JPG" style="width:100%" onclick="currentSlide(1)"
-      alt="IBIS flex PCB, with hand for scale">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/IBISflex_traces.JPG" style="width:100%" onclick="currentSlide(2)"
-      alt="Close up of FFC-compatible fingers under microscope">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="assets/images/IBISflex_chip.jpg" style="width:100%" onclick="currentSlide(3)"
-      alt="Board with flip-chip bonded chip (photo from Sajjad Moazeni)">
-    </div>
-  </div>
-</div>
+  <!-- Note that we need to call this BEFORE gallery.js is loaded -->
+  generateGalleryHTML(filenames, captions);
+</script>
 
 <hr class="major" />
 

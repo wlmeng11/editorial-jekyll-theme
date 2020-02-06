@@ -34,47 +34,26 @@ Explanations, photos, and diagrams can be found on Github, particularly on these
 
 <hr class="major" />
 
-<div class="container">
-  <div class="mySlides">
-    <img src="assets/images/SimpleRick_mainboard.JPG">
-  </div>
+<div class="container" id="gallery"></div>
 
-  <div class="mySlides">
-    <img src="assets/images/SimpleRick_TGC_sketch.JPG">
-  </div>
+<script type="text/javascript" src="assets/js/generategallery.js"></script>
+<script>
+  var filenames = [
+    "SimpleRick_mainboard.JPG",
+    "SimpleRick_TGC_sketch.JPG",
+    "rtl-ultrasound_experimental_setup.JPG",
+    "rtl-ultrasound_ControlAnd2Weights.png"
+  ];
+  var captions = [
+    "The SimpleRick PCB, fully assembled.",
+    "Sketch of the Time Gain Compensation (TGC) circuit, as prototyped on a breadboard.",
+    "Experimental setup with SimpleRick, piezo, servo motor, boost converter, 12.5 MHz lowpass filter, and RTL-SDR.",
+    "Experimental results."
+  ];
 
-  <div class="mySlides">
-    <img src="assets/images/rtl-ultrasound_experimental_setup.JPG">
-  </div>
-
-  <div class="mySlides">
-    <img src="assets/images/rtl-ultrasound_ControlAnd2Weights.png">
-  </div>
-
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <div class="column">
-    <img class="demo cursor" src="assets/images/SimpleRick_mainboard.JPG" style="width:100%" onclick="currentSlide(1)"
-    alt="The SimpleRick PCB, fully assembled.">
-  </div>
-  <div class="column">
-    <img class="demo cursor" src="assets/images/SimpleRick_TGC_sketch.JPG" style="width:100%" onclick="currentSlide(2)"
-    alt="Sketch of the Time Gain Compensation (TGC) circuit, as prototyped on a breadboard.">
-  </div>
-  <div class="column">
-    <img class="demo cursor" src="assets/images/rtl-ultrasound_experimental_setup.JPG" style="width:100%" onclick="currentSlide(3)"
-    alt="Experimental setup with SimpleRick, piezo, servo motor, boost converter, 12.5 MHz lowpass filter, and RTL-SDR.">
-  </div>
-  <div class="column">
-    <img class="demo cursor" src="assets/images/rtl-ultrasound_ControlAnd2Weights.png" style="width:100%" onclick="currentSlide(4)"
-    alt="Experimental results.">
-  </div>
-</div>
+  <!-- Note that we need to call this BEFORE gallery.js is loaded -->
+  generateGalleryHTML(filenames, captions);
+</script>
 
 <link rel="stylesheet" href="assets/css/gallery.css">
 <script type="text/javascript" src="assets/js/gallery.js"></script>

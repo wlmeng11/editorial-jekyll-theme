@@ -15,27 +15,21 @@ A 3-band audio music visualizer built on a breadboard for our ELEN 1201 final pr
 
 <hr class="major" />
 
-<div class="container">
-  <div class="mySlides">
-    <img src="assets/images/Music_visualizer_breadboard.jpg">
-  </div>
+<div class="container" id="gallery"></div>
 
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
+<script type="text/javascript" src="assets/js/generategallery.js"></script>
+<script>
+  var filenames = [
+    "Music_visualizer_breadboard.jpg"
+  ];
+  var captions = [
+    "Complete circuit on a breadboard"
+  ];
 
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <div class="row">
-    <div class="column">
-      <img class="demo cursor" src="assets/images/Music_visualizer_breadboard.jpg" style="width:100%" onclick="currentSlide(1)"
-      alt="Complete circuit on a breadboard">
-    </div>
-  </div>
-</div>
-
-<link rel="stylesheet" href="assets/css/gallery.css">
-<script type="text/javascript" src="assets/js/gallery.js"></script>
+  <!-- Note that we need to call this BEFORE gallery.js is loaded -->
+  generateGalleryHTML(filenames, captions);
+</script>
 
 <hr class="major" />
+<link rel="stylesheet" href="assets/css/gallery.css">
+<script type="text/javascript" src="assets/js/gallery.js"></script>
