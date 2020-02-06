@@ -86,7 +86,7 @@ and scale automatically while preserving aspect ratio */
 
 /* Six columns side by side */
 .column {
-  float: left;
+  display: inline-block;
   width: 20%;
   position: relative;
   background-color: #20a7db
