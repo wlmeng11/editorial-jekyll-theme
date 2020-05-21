@@ -29,8 +29,8 @@ layout: default
 			<p>2019</p>
 		</article>
 		<article>
-			<a href="{{ 'AMradio.html' | absolute_url }}" class="image"><img src="assets/images/AMradio.jpg" alt="" /></a>
-			<h3>AM Radio Transmitter (coming soon!)</h3>
+			<a href="{{ 'AMradio.html' | absolute_url }}" class="image"><img src="assets/images/AMradio_square.jpg" alt="" /></a>
+			<h3>AM Radio Transmitter</h3>
 			<p>2019</p>
 		</article>
 		<article>
