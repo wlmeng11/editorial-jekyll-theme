@@ -5,7 +5,7 @@ image: assets/images/Futurama.jpg
 comments: true
 ---
 December 2016<br>
-with [Perrin Jones](http://perrin-jones.com/), Meghna Gorrela, Gabby Jones, & Hidy Yi
+with [Perrin Anto](https://www.perrin.design/), Meghna Gorrela, Gabby Jones, & Hidy Yi
 
 [Code on Github](https://github.com/wlmeng11/futurama)<br>
 [Featured on the @columbiaengineering Instagram](https://www.instagram.com/p/BcaSdyZla2W/)
