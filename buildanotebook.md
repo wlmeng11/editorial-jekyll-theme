@@ -7,7 +7,7 @@ comments: true
 November 2018<br>
 [Github repository](https://github.com/wlmeng11/Build-A-Notebook)
 
-I developed and led a seminar in the [Columbia Makerspace](https://make.columbia.edu/) in order to teach students how to build their own customizable notebook, based on my [previous sketchbook design](https://williammeng.com/sketchbook.html).
+I developed and led a seminar in the [Columbia Makerspace](https://make.columbia.edu/) in order to teach students how to build their own customizable notebook, based on my [previous sketchbook design](sketchbook.html).
 
 The design consists of:
 
