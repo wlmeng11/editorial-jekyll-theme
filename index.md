@@ -39,8 +39,8 @@ layout: default
 			<p>2018</p>
 		</article>
 		<article>
-			<a href="{{ 'buildanotebook.html' | absolute_url }}" class="image"><img src="assets/images/" alt="" /></a>
-			<h3>Build-A-Notebook (coming soon!)</h3>
+			<a href="{{ 'buildanotebook.html' | absolute_url }}" class="image"><img src="assets/images/buildanotebook/icon.jpg" alt="" /></a>
+			<h3>Build-A-Notebook</h3>
 			<p>2018</p>
 		</article>
 		<article>
