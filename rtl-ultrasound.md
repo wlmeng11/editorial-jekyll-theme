@@ -1,7 +1,7 @@
 ---
 layout: page
 title: rtl-ultrasound
-image: assets/images/SimpleRick_wideshot.jpg
+image: assets/images/rtl-ultrasound/SimpleRick_wideshot.jpg
 comments: true
 ---
 July - August 2018
@@ -38,6 +38,7 @@ Explanations, photos, and diagrams can be found on Github, particularly on these
 
 <script type="text/javascript" src="assets/js/generategallery.js"></script>
 <script>
+  var prefix = "rtl-ultrasound/"
   var filenames = [
     "SimpleRick_mainboard.JPG",
     "SimpleRick_TGC_sketch.JPG",
@@ -50,9 +51,11 @@ Explanations, photos, and diagrams can be found on Github, particularly on these
     "Experimental setup with SimpleRick, piezo, servo motor, boost converter, 12.5 MHz lowpass filter, and RTL-SDR.",
     "Experimental results."
   ];
-
+  var images = filenames.map(function (i){
+    return prefix + i;
+  })
   <!-- Note that we need to call this BEFORE gallery.js is loaded -->
-  generateGalleryHTML(filenames, captions);
+  generateGalleryHTML(images, captions);
 </script>
 
 <link rel="stylesheet" href="assets/css/gallery.css">

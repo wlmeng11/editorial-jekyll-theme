@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Opamp
-image: assets/images/
+image: assets/images/opamp/opamp.png
 comments: true
 ---
 Dec 2018<br>

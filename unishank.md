@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Deep Brain Fluorescence Imager
-image: assets/images/Unishank_layout.png
+image: assets/images/unishank/Unishank_layout.png
 comments: true
 ---
 (top image by Jaebin Choi)
@@ -40,6 +40,7 @@ a premier international conference in the field of bioelectronics.
 
 <script type="text/javascript" src="assets/js/generategallery.js"></script>
 <script>
+  var prefix = "unishank/"
   var filenames = [
     "Unishank_chip.jpg",
     "Unishank_fineplacer.jpg",
@@ -66,9 +67,11 @@ a premier international conference in the field of bioelectronics.
     "Polar plots of angular-sensitivity for each type of Angular Sensitive Pixel (ASP)",
     "Award at BioCAS conference"
   ];
-
+  var images = filenames.map(function (i){
+    return prefix + i;
+  })
   <!-- Note that we need to call this BEFORE gallery.js is loaded -->
-  generateGalleryHTML(filenames, captions);
+  generateGalleryHTML(images, captions);
 </script>
 
 <hr class="major" />

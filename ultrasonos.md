@@ -1,7 +1,7 @@
 ---
 layout: page
 title: UltrasonOS
-image: assets/images/Ultrasound_Analog_Frontend.jpg
+image: assets/images/ultrasonos/Ultrasound_Analog_Frontend.jpg
 comments: true
 ---
 February - December 2017<br>
@@ -23,6 +23,7 @@ We designed the PCBs in [Kicad](http://kicad-pcb.org/) and utilized a combinatio
 
 <script type="text/javascript" src="assets/js/generategallery.js"></script>
 <script>
+  var prefix = "ultrasonos/"
   var filenames = [
     "Ultrasound_Nucleo_DAQ_Shield.jpg",
     "Ultrasound_piezo.jpg",
@@ -39,9 +40,11 @@ We designed the PCBs in [Kicad](http://kicad-pcb.org/) and utilized a combinatio
     "Handheld “probe” for A-mode imaging (ie. 1 dimensional boundary data)",
     "Data streaming from Nucleo board to my laptop"
   ];
-
+  var images = filenames.map(function (i){
+    return prefix + i;
+  })
   <!-- Note that we need to call this BEFORE gallery.js is loaded -->
-  generateGalleryHTML(filenames, captions);
+  generateGalleryHTML(images, captions);
 </script>
 
 <hr class="major" />

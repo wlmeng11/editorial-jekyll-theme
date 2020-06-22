@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Sketchbook
-image: assets/images/Sketchbook.jpg
+image: assets/images/sketchbook/Sketchbook.jpg
 comments: true
 ---
 August 2016
@@ -16,6 +16,7 @@ allows the pages to lay flat when the notebook is open.
 
 <script type="text/javascript" src="assets/js/generategallery.js"></script>
 <script>
+  var prefix = "sketchbook/"
   var filenames = [
     "Sketchbook_cardboard.jpg",
     "Sketchbook_pages.jpg"
@@ -24,9 +25,11 @@ allows the pages to lay flat when the notebook is open.
     "Prototyping the cover design with cardboard",
     "Pages laying flat"
   ];
-
+  var images = filenames.map(function (i){
+    return prefix + i;
+  })
   <!-- Note that we need to call this BEFORE gallery.js is loaded -->
-  generateGalleryHTML(filenames, captions);
+  generateGalleryHTML(images, captions);
 </script>
 
 <hr class="major" />

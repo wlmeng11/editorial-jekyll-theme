@@ -1,7 +1,7 @@
 ---
 layout: page
 title: AM Radio Transmitter
-image: assets/images/AMradio.jpg
+image: assets/images/AMradio/AMradio.jpg
 comments: true
 ---
 April 2019<br>
@@ -38,6 +38,7 @@ And our demonstration for Prof. Tsividis:
 
 <script type="text/javascript" src="assets/js/generategallery.js"></script>
 <script>
+  var prefix = "AMradio/"
   var filenames = [
     "AMradio_schematic.png",
     "AMradio_blockdiagram.png",
@@ -56,9 +57,11 @@ And our demonstration for Prof. Tsividis:
     "Carrier with sidebands and unwanted harmonics.",
     "Design in progress."
   ];
-
+  var images = filenames.map(function (i){
+    return prefix + i;
+  })
   <!-- Note that we need to call this BEFORE gallery.js is loaded -->
-  generateGalleryHTML(filenames, captions);
+  generateGalleryHTML(images, captions);
 </script>
 
 <hr class="major" />

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Shift Register Visualizer
-image: assets/images/Shift_register_visualizer.jpg
+image: assets/images/shift_register_visualizer/Shift_register_visualizer.jpg
 comments: true
 ---
 February 2017
@@ -16,6 +16,7 @@ My first ever PCB design! Initially prototyped on a breadboard, then drawn in Ki
 
 <script type="text/javascript" src="assets/js/generategallery.js"></script>
 <script>
+  var prefix = "shift_register_visualizer/"
   var filenames = [
     "Shift_register_breadboard.jpg",
     "Shift_register_backside.jpg",
@@ -26,9 +27,11 @@ My first ever PCB design! Initially prototyped on a breadboard, then drawn in Ki
     "Back side of PCB",
     "FR1 material is somewhat translucent"
   ];
-
+  var images = filenames.map(function (i){
+    return prefix + i;
+  })
   <!-- Note that we need to call this BEFORE gallery.js is loaded -->
-  generateGalleryHTML(filenames, captions);
+  generateGalleryHTML(images, captions);
 </script>
 
 <hr class="major" />

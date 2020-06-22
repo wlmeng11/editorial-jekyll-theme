@@ -1,7 +1,7 @@
 ---
 layout: page
 title: IBIS flex PCB
-image: assets/images/IBISflex.JPG
+image: assets/images/IBISflex/IBISflex.JPG
 comments: true
 ---
 June 2019<br>
@@ -15,6 +15,7 @@ I designed a flexible PCB in 3 mil design rules to provide a flexible substrate 
 
 <script type="text/javascript" src="assets/js/generategallery.js"></script>
 <script>
+  var prefix = "IBISflex/"
   var filenames = [
     "IBISflex_hand.JPG",
     "IBISflex_traces.JPG",
@@ -25,9 +26,11 @@ I designed a flexible PCB in 3 mil design rules to provide a flexible substrate 
     "Close up of FFC-compatible fingers under microscope",
     "Board with flip-chip bonded chip (photo by Sajjad Moazeni)"
   ];
-
+  var images = filenames.map(function (i){
+    return prefix + i;
+  })
   <!-- Note that we need to call this BEFORE gallery.js is loaded -->
-  generateGalleryHTML(filenames, captions);
+  generateGalleryHTML(images, captions);
 </script>
 
 <hr class="major" />

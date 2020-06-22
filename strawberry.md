@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Strawberry
-image: assets/images/strawberry.png
+image: assets/images/strawberry/strawberry.png
 comments: true
 ---
 December 2019<br>
@@ -17,6 +17,7 @@ in Cadence Virtuoso for IBM's 90 nm CMOS process (cms9flp).
 
 <script type="text/javascript" src="assets/js/generategallery.js"></script>
 <script>
+  var prefix = "strawberry/"
   var filenames = [
     "strawberry_block.jpg",
     "strawberry_ADDER_XOR.png",
@@ -51,9 +52,11 @@ in Cadence Virtuoso for IBM's 90 nm CMOS process (cms9flp).
       "Waveforms of control signals from PLA",
       "Assembly code for functional verification"
   ];
-
+  var images = filenames.map(function (i){
+    return prefix + i;
+  })
   <!-- Note that we need to call this BEFORE gallery.js is loaded -->
-  generateGalleryHTML(filenames, captions);
+  generateGalleryHTML(images, captions);
 </script>
 
 <hr class="major" />

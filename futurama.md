@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Futurama
-image: assets/images/Futurama.jpg
+image: assets/images/futurama/Futurama.jpg
 comments: true
 ---
 December 2016<br>
@@ -18,6 +18,7 @@ Our project for the Art of Engineering class. We designed and fabricated an Ardu
 
 <script type="text/javascript" src="assets/js/generategallery.js"></script>
 <script>
+  var prefix = "futurama/"
   var filenames = [
     "Futurama_diagram.jpg",
     "Futurama_parts.jpg",
@@ -34,9 +35,11 @@ Our project for the Art of Engineering class. We designed and fabricated an Ardu
     "Top view of partial assembly",
     "Soldering LEDs for aesthetically pleasing case lighting"
   ];
-
+  var images = filenames.map(function (i){
+    return prefix + i;
+  })
   <!-- Note that we need to call this BEFORE gallery.js is loaded -->
-  generateGalleryHTML(filenames, captions);
+  generateGalleryHTML(images, captions);
 </script>
 
 <hr class="major" />

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Inchworm
-image: assets/images/Inchworm.jpg
+image: assets/images/inchworm/Inchworm.jpg
 comments: true
 ---
 February 2017<br>
@@ -24,6 +24,7 @@ The “back” of the inchworm is a sheet of plywood cut in such a way as to for
 
 <script type="text/javascript" src="assets/js/generategallery.js"></script>
 <script>
+  var prefix = "inchworm/"
   var filenames = [
     "Inchworm_cardboard.jpg",
     "Inchworm_mechanism.jpg",
@@ -34,9 +35,11 @@ The “back” of the inchworm is a sheet of plywood cut in such a way as to for
     "Winch and wheel mechanisms",
     "Living hinge, compressed into an arch shape"
   ];
-
+  var images = filenames.map(function (i){
+    return prefix + i;
+  })
   <!-- Note that we need to call this BEFORE gallery.js is loaded -->
-  generateGalleryHTML(filenames, captions);
+  generateGalleryHTML(images, captions);
 </script>
 
 <hr class="major" />

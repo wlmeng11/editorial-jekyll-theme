@@ -9,7 +9,7 @@ layout: default
 	</header>
 	<div class="posts">
 		<article>
-			<a href="{{ 'strawberry.html' | absolute_url }}" class="image"><img src="assets/images/strawberry_square.jpg" alt="" /></a>
+			<a href="{{ 'strawberry.html' | absolute_url }}" class="image"><img src="assets/images/strawberry/strawberry_square.jpg" alt="" /></a>
 			<h3>Strawberry</h3>
 			<p>2019</p>
 		</article>
@@ -19,22 +19,22 @@ layout: default
 			<p>2019</p>
 		</article>
 		<article>
-			<a href="{{ 'IBISflex.html' | absolute_url }}" class="image"><img src="assets/images/IBISflex_animation.gif" alt="" /></a>
+			<a href="{{ 'IBISflex.html' | absolute_url }}" class="image"><img src="assets/images/IBISflex/IBISflex_animation.gif" alt="" /></a>
 			<h3>IBIS flex PCB</h3>
 			<p>2019</p>
 		</article>
 		<article>
-			<a href="{{ 'unishank.html' | absolute_url }}" class="image"><img src="assets/images/Unishank.jpg" alt="" /></a>
+			<a href="{{ 'unishank.html' | absolute_url }}" class="image"><img src="assets/images/unishank/Unishank.jpg" alt="" /></a>
 			<h3>Deep Brain Fluorescence Imager</h3>
 			<p>2019</p>
 		</article>
 		<article>
-			<a href="{{ 'AMradio.html' | absolute_url }}" class="image"><img src="assets/images/AMradio_square.jpg" alt="" /></a>
+			<a href="{{ 'AMradio.html' | absolute_url }}" class="image"><img src="assets/images/AMradio/AMradio_square.jpg" alt="" /></a>
 			<h3>AM Radio Transmitter</h3>
 			<p>2019</p>
 		</article>
 		<article>
-			<a href="{{ 'opamp.html' | absolute_url }}" class="image"><img src="assets/images/opamp.png" alt="" /></a>
+			<a href="{{ 'opamp.html' | absolute_url }}" class="image"><img src="assets/images/opamp/opamp.png" alt="" /></a>
 			<h3>Opamp (coming soon!)</h3>
 			<p>2018</p>
 		</article>
@@ -44,12 +44,12 @@ layout: default
 			<p>2018</p>
 		</article>
 		<article>
-			<a href="{{ 'rtl-ultrasound.html' | absolute_url }}" class="image"><img src="assets/images/SimpleRick.JPG" alt="" /></a>
+			<a href="{{ 'rtl-ultrasound.html' | absolute_url }}" class="image"><img src="assets/images/rtl-ultrasound/SimpleRick.JPG" alt="" /></a>
 			<h3>rtl-ultrasound</h3>
 			<p>2018</p>
 		</article>
 		<article>
-			<a href="{{ 'ultrasonos.html' | absolute_url }}" class="image"><img src="assets/images/Ultrasound_Analog_Frontend_crop.jpg" alt="" /></a>
+			<a href="{{ 'ultrasonos.html' | absolute_url }}" class="image"><img src="assets/images/ultrasonos/Ultrasound_Analog_Frontend_crop.jpg" alt="" /></a>
 			<h3>UltrasonOS</h3>
 			<p>2017</p>
 		</article>
@@ -59,12 +59,12 @@ layout: default
 			<p>2017</p>
 		</article>
 		<article>
-			<a href="{{ 'inchworm.html' | absolute_url }}" class="image"><img src="assets/images/Inchworm_square.jpg" alt="" /></a>
+			<a href="{{ 'inchworm.html' | absolute_url }}" class="image"><img src="assets/images/inchworm/Inchworm_square.jpg" alt="" /></a>
 			<h3>Inchworm</h3>
 			<p>2017</p>
 		</article>
 		<article>
-			<a href="{{ 'shift_register_visualizer.html' | absolute_url }}" class="image"><img src="assets/images/Shift_register_visualizer_square.jpg" alt="" /></a>
+			<a href="{{ 'shift_register_visualizer.html' | absolute_url }}" class="image"><img src="assets/images/shift_register_visualizer/Shift_register_visualizer_square.jpg" alt="" /></a>
 			<h3>Shift Register Visualizer</h3>
 			<p>2017</p>
 		</article>
@@ -74,7 +74,7 @@ layout: default
 			<p>2016</p>
 		</article>
 		<article>
-			<a href="{{ 'music_visualizer.html' | absolute_url }}" class="image"><img src="assets/images/Music_visualizer.gif" alt="" /></a>
+			<a href="{{ 'music_visualizer.html' | absolute_url }}" class="image"><img src="assets/images/music_visualizer/Music_visualizer.gif" alt="" /></a>
 			<!-- <a href="{{ 'music_visualizer.html' | absolute_url }}" class="image">
 			<video width="auto" loop="true" autoplay="autoplay" muted>
 			<source src="assets/images/Music_visualizer.mp4" type="video/mp4" />
@@ -84,12 +84,12 @@ layout: default
 			<p>2016</p>
 		</article>
 		<article>
-			<a href="{{ 'futurama.html' | absolute_url }}" class="image"><img src="assets/images/Futurama.jpg" alt="" /></a>
+			<a href="{{ 'futurama.html' | absolute_url }}" class="image"><img src="assets/images/futurama/Futurama.jpg" alt="" /></a>
 			<h3>Futurama</h3>
 			<p>2016</p>
 		</article>
 		<article>
-			<a href="{{ 'sketchbook.html' | absolute_url }}" class="image"><img src="assets/images/Sketchbook_square.jpg" alt="" /></a>
+			<a href="{{ 'sketchbook.html' | absolute_url }}" class="image"><img src="assets/images/sketchbook/Sketchbook_square.jpg" alt="" /></a>
 			<h3>Sketchbook</h3>
 			<p>2016</p>
 		</article>
