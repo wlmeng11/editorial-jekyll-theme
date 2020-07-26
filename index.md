@@ -35,7 +35,7 @@ layout: default
 		</article>
 		<article>
 			<a href="{{ 'opamp.html' | absolute_url }}" class="image"><img src="assets/images/opamp/opamp.png" alt="" /></a>
-			<h3>Opamp (coming soon!)</h3>
+			<h3>Opamp</h3>
 			<p>2018</p>
 		</article>
 		<article>
