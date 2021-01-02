@@ -7,18 +7,18 @@ comments: true
 (top image by Jaebin Choi)
 
 June 2019<br>
-with Jaebin Choi et al (Columbia University [Bioelectronic Systems Lab](https://bioeeweb.ee.columbia.edu/wordpress/))<br>
+with Jaebin Choi et al<br>
 
-I joined Prof. Ken Shepard's Bioelectronic Systems Lab during my junior year
+I joined Prof. Ken Shepard's [Bioelectronic Systems Lab](https://bioeeweb.ee.columbia.edu/wordpress/) during my junior year
 to work on next-generation neural interfaces based on Single Photon Avalanche Diode (SPAD) photodetectors,
 which offer unrivaled speed and resolution compared to electric and magnetic field sensors.
 
-The imager chip was fabricated in TSMC's 130 nm BCD process.
+The imager chip was fabricated in [TSMC](https://www.tsmc.com/)'s 130 nm BCD process.
 It integrates microLED illuminators and SPAD photodetectors into a needle-like form factor
 in order to perform fluorescence lifetime imaging of deep tissue in a mouse brain.
 Because the microscale form factor of the system prohibits a physical lens to focus the light,
 a compressed sensing scheme which utilizes an ensemble of angular-sensitive pixels
-(based on a variety of Talbot diffraction gratings)
+(based on an assortment of Talbot diffraction gratings)
 allows for computational focusing and reconstruction of a 3D image.
 
 I assembled and tested the PCBs, collected data, and created simulations and plots that were included in my co-authored paper,
