@@ -4090,3 +4090,10 @@
 		.caption-container {
 			font-family: 'Source Sans Pro', sans-serif;
 		}
+
+/* Custom CSS added by William */
+
+/* Get rid of excessive spacing before a list, based on https://stackoverflow.com/a/7759284/1865495 */
+	p + ul {
+		margin-top: -2em;
+	}

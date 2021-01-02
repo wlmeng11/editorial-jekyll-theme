@@ -28,7 +28,6 @@ a premier international conference in the field of bioelectronics.
 *Publications:*
 
 * Jaebin Choi, Adriaan J. Taal, Eric H. Pollmann, **William Meng**, Sajjad Moazeni, Laurent C. Moreaux, Michael L. Roukes, Kenneth L. Shepard, "[Fully Integrated Time-Gated 3D Fluorescence Imager for Deep Neural Imaging](assets/pdf/Choi et al, Fully Integrated Time-Gated 3D Fluorescence Imager for Deep Neural Imaging, BioCAS, 2019.pdf)," IEEE Biomedical Circuits and Systems Conference (BioCAS), October 18, 2019.
-
 * Jaebin Choi, Adriaan J. Taal, **William L. Meng**, Eric H. Pollmann, John W. Stanton,  Changhyuk Lee, Sajjad Moazeni, Laurent C. Moreaux, Michael L. Roukes, and Kenneth L. Shepard, “[Fully Integrated Time-Gated 3D Fluorescence Imager for Deep Neural Imaging](https://www.bioee.ee.columbia.edu/wp-content/uploads/2020/07/09138695.pdf),” IEEE Transactions on Biomedical Circuits and Systems (TBioCAS) 14, no. 4, pages 636-645 (2020).
 
 *Awards:*
