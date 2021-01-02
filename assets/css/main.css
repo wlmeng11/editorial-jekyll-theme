@@ -3353,7 +3353,7 @@
 					width: 100%;
 				}
 
-		@media screen and (min-width: 1681px) {
+		@media screen and (min-width: 1001px) {
 
 			.posts article:nth-child(3n + 1):before {
 				display: none;
@@ -3377,7 +3377,7 @@
 
 		}
 
-		@media screen and (max-width: 1680px) {
+		@media screen and (max-width: 1000px) {
 
 			.posts article {
 				width: calc(50% - 6em);
@@ -3389,7 +3389,7 @@
 
 		}
 
-		@media screen and (min-width: 481px) and (max-width: 1680px) {
+		@media screen and (min-width: 481px) and (max-width: 1000px) {
 
 			.posts article:nth-child(2n + 1):before {
 				display: none;
