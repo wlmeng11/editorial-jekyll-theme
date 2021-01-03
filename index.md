@@ -98,5 +98,20 @@ layout: default
 			<h3>Graduation Cap</h3>
 			<p>2016</p>
 		</article>
+		<article>
+			<a href="{{ 'electric_vehicle.html' | absolute_url }}" class="image"><img src="assets/images/electric_vehicle/electric_vehicle.jpg" alt="" /></a>
+			<h3>Electric Vehicle</h3>
+			<p>2016</p>
+		</article>
+		<article>
+			<a href="{{ 'IAT.html' | absolute_url }}" class="image"><img src="assets/images/IAT/IAT.jpg" alt="" /></a>
+			<h3>It's About Time</h3>
+			<p>2015-16</p>
+		</article>
+		<article>
+			<a href="{{ 'mission_possible.html' | absolute_url }}" class="image"><img src="assets/images/mission_possible/mission_possible.jpg" alt="" /></a>
+			<h3>Mission Possible</h3>
+			<p>2015</p>
+		</article>
 	</div>
 </section>
