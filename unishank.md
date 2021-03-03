@@ -56,7 +56,7 @@ a premier international conference in the field of bioelectronics.
     "Unishank_award.jpg"
   ];
   var captions = [
-    "<strike> The world's smallest stringed instrument</strike> Test chip (not diced) wirebonded to daughterboard",
+    "<strike> The world's smallest harp</strike> Test chip (not diced) wirebonded to daughterboard",
     "Aligning microLED with dummy wafer for flip-chip bonding on the Fineplacer lambda",
     "microLED with dummy wafer attached to chip",
     "Probing microLED on the probe station",
