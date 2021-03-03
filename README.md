@@ -1,3 +1,17 @@
+# williammeng.com
+William Meng's personal website
+
+This website is built with Jekyll using the Editorial Theme by HTML5 UP.
+
+# Running locally
+```
+gem install bundler:1.12.0
+bundle _1.12.0_ install
+bundle _1.12.0_ exec jekyll serve --incremental
+```
+
+Original documentation below:
+
 # (WIP) Editorial - Jekyll Theme
 
 A Jekyll version of the "Editorial" theme by [HTML5 UP](https://html5up.net/).
