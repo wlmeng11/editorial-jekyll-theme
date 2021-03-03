@@ -4,11 +4,27 @@ William Meng's personal website
 This website is built with Jekyll using the Editorial Theme by HTML5 UP.
 
 # Running locally
+Requires Ruby 2.3:
+```
+rvm install 2.3
+rvm use 2.3
+```
+On Debian 10, the build dependency `libssl1.0-dev` does not exist, so as a workaround compile ruby 2.3 without SSL support:
+```
+rvm install 2.3 --autolibs=disable # DANGEROUS: compiles without SSL support
+```
+
+Install dependencies:
 ```
 gem install bundler:1.12.0
 bundle _1.12.0_ install
-bundle _1.12.0_ exec jekyll serve --incremental
 ```
+
+Run the local webserver:
+```
+bundle _1.12.0_ exec jekyll serve --incremental --ssl-cert
+```
+
 
 Original documentation below:
 
