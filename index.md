@@ -9,6 +9,11 @@ layout: default
 	</header>
 	<div class="posts">
 		<article>
+			<a href="{{ 'ee367.html' | absolute_url }}" class="image"><img src="assets/images/ee367/Icon.png" alt="" /></a>
+			<h3>Single Element Ultrasound Imaging with Compressed Sensing</h3>
+			<p>2021</p>
+		</article>
+		<article>
 			<a href="{{ 'strawberry.html' | absolute_url }}" class="image"><img src="assets/images/strawberry/strawberry_square.jpg" alt="" /></a>
 			<h3>Strawberry</h3>
 			<p>2019</p>
